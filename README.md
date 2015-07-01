@@ -11,4 +11,8 @@ Settings for all Intellij IDE-s
 ##Shortcuts
 
 ####Find
- - Everything : <S><S>
+ - Command	<C><S>a 	
+ - Everything	<S><S>
+
+####Navigate
+ - Switcher 	<C><TAB>
