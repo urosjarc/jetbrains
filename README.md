@@ -5,4 +5,10 @@ Settings for all Intellij IDE-s
  - ideavim
  - .ignore
  - Key promoter
+ - CodeGlance
  - https://github.com/jkaving/intellij-colors-solarized
+
+##Shortcuts
+
+####Find
+ - Everything : <S><S>
