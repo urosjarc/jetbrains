@@ -1,0 +1,4 @@
+"KEY SHORTCUTS"
+    let mapleader=" "
+    "LEADER COMMAND"
+    nnoremap <leader>Ve "iThis is leaderVe"

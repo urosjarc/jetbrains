@@ -20,27 +20,28 @@ Settings for all Intellij IDE-s
                                                                    > Theme(Darcula)
                                        > Animate window(FALSE)
                                
-    Editor > Colors & Fonts > Fonts > 
-                                    > Size(11)
-                                    > Line spacing(1)
-                                    > Scheme(Solarized Light)
+    Editor > Colors & Fonts > Font > 
+                                   > Size(11)
+                                   > Line spacing(1)
+                                   > Scheme(Solarized Light)
            > Code Style > 
                         > Use tab character(TRUE)
                         > Smart tabs(TRUE)
            > General > Code Completion >
                                        > Autopopup in (ms):(TRUE,0)
-           > Code Folding >
-                          > Documentation comments(TRUE)
-                          > Method bodies(TRUE)
-                          > Custom folding regions(TRUE)
+           	     > Code Folding >
+                                    > Documentation comments(TRUE)
+                          	    > Method bodies(TRUE)
+                                    > Custom folding regions(TRUE)
 
     Version Control > GitHub > 
                              > Login(*)
                              > Password(*)
 
-    Languages & Frameworks > Node.js and NPM >
-                                             > Sources of Node.js Core Modules(SET)
-                                             
+    Other settings > Vim Emulation >
+				   > *(IDE)
+				   > Replace...(VIM)
+
     Keymaps >
             > Clone caret up      <ALT>Num-
             > Clone caret dow.    <ALT>Num+
@@ -48,11 +49,17 @@ Settings for all Intellij IDE-s
             > Find action         <ALT>a
             > Find in project     <ALT>p
             > Switcher            <ALT><TAB>
+
+    >>> JavaScript
+
+    Languages & Frameworks > Node.js and NPM >
+                                             > Sources of Node.js Core Modules(SET)
+                                             
     
 ##Modified configuration
     View > Navigation bar(FALSE)
          > Status bar(FALSE)
-         > Active editor > Show line numbers(FALSE)
+         > Active editor > Show line numbers(TRUE)
     Window > Editor Tabs > Tabs Placement > Show tabs in single row(FALSE)
     <project gear> > 
                    > Sort by type(TRUE)
@@ -72,6 +79,7 @@ Settings for all Intellij IDE-s
 ####Multiple cursors
     Mouse select    <ALT><MR>
     Find under cur. <ALT>j
+    Unsel chosen    <ALT><S>j
     Up              <ALT>Num-
     Down            <ALT>Num+
 
@@ -89,5 +97,5 @@ Settings for all Intellij IDE-s
     To defini.  <C>b
 
 ####Editing
-    Commenting  <C>/
-    Block comm. <C><ALT>/
+    Commenting  <ALT><SPACE>
+    Block comm. <ALT><SPACE>/
