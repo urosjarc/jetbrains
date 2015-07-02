@@ -1,4 +1,4 @@
-# PRO.Intellij
+#PRO.Intellij
 Settings for all Intellij IDE-s
 
 ##System settings
@@ -42,15 +42,22 @@ Settings for all Intellij IDE-s
 
 ##Modified configuration
     View > Navigation bar(HIDE)
-    View > Status bar(HIDE)
-    view > Active editor > Show line numbers(SHOW)
+         > Status bar(HIDE)
+         > Active editor > Show line numbers(FALSE)
+         > View > Tool Windows > Structure(FALSE)
     Window > Editor Tabs > Tabs Placement > Show tabs in single row(FALSE)
-    <project gear> Sort by type(TRUE)
+    <project gear> > 
+                   > Sort by type(TRUE)
+                   > Pinned mode(FALSE)
 
 ##Snipets
     Settings > Editor > Live Templates
 
 ##Shortcuts
+
+####Multiple cursors
+    Mouse select    <ALT><MR>
+    Find under cur. <ALT>j
 
 ####Find
 
