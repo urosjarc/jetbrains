@@ -28,10 +28,10 @@ Settings for all Intellij IDE-s
                         > Smart tabs(TRUE)
            > General > Code Completion >
                                        > Autopopup in (ms):(TRUE,0)
-             > Code Folding >
-                            > Documentation comments(TRUE)
-                            > Method bodies(TRUE)
-                            > Custom folding regions(TRUE)
+           > Code Folding >
+                          > Documentation comments(TRUE)
+                          > Method bodies(TRUE)
+                          > Custom folding regions(TRUE)
 
     Version Control > GitHub > 
                              > Login(*)
@@ -41,14 +41,14 @@ Settings for all Intellij IDE-s
                                              > Sources of Node.js Core Modules(SET)
 
 ##Modified configuration
- - View > Navigation bar(HIDE)
- - View > Status bar(HIDE)
- - view > Active editor > Show line numbers(SHOW)
- - Window > Editor Tabs > Tabs Placement > Show tabs in single row(FALSE)
- - <project gear> Sort by type(TRUE)
+    View > Navigation bar(HIDE)
+    View > Status bar(HIDE)
+    view > Active editor > Show line numbers(SHOW)
+    Window > Editor Tabs > Tabs Placement > Show tabs in single row(FALSE)
+    <project gear> Sort by type(TRUE)
 
 ##Snipets
- - Settings > Editor > Live Templates
+    Settings > Editor > Live Templates
 
 ##Shortcuts
 
