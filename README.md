@@ -18,6 +18,7 @@ Settings for all Intellij IDE-s
                                                                    > Name(Dialog)
                                                                    > Size(10)
                                                                    > Theme(Darcula)
+                                       > Animate window(FALSE)
                                
     Editor > Colors & Fonts > Fonts > 
                                     > Size(11)
@@ -39,31 +40,54 @@ Settings for all Intellij IDE-s
 
     Languages & Frameworks > Node.js and NPM >
                                              > Sources of Node.js Core Modules(SET)
-
+                                             
+    Keymaps >
+            > Clone caret up      <ALT>Num-
+            > Clone caret dow.    <ALT>Num+
+            > Search everywhere   <ALT>s
+            > Find action         <ALT>a
+            > Find in project     <ALT>p
+            > Switcher            <ALT><TAB>
+    
 ##Modified configuration
-    View > Navigation bar(HIDE)
-         > Status bar(HIDE)
+    View > Navigation bar(FALSE)
+         > Status bar(FALSE)
          > Active editor > Show line numbers(FALSE)
-         > View > Tool Windows > Structure(FALSE)
     Window > Editor Tabs > Tabs Placement > Show tabs in single row(FALSE)
     <project gear> > 
                    > Sort by type(TRUE)
-                   > Pinned mode(FALSE)
+                   
+    ---> Set every (View > Tool Window > * ) to show
+    ---> Set every (-//- > Tool Window > *, not Structure) to Docked mode(FALSE)
+    
 
 ##Snipets
     Settings > Editor > Live Templates
 
 ##Shortcuts
 
+####Hellper
+    Intention act.  <ALT><ENTER>
+
 ####Multiple cursors
     Mouse select    <ALT><MR>
     Find under cur. <ALT>j
+    Up              <ALT>Num-
+    Down            <ALT>Num+
 
 ####Find
 
-    Everything	<S><S>
-    Command		<C><S>a 	
+    Search      <ALT>s
+    Action		<ALT>a	
+    In project  <ALT>p
 
 ####Navigate
+    Switcher    <ALT><TAB>
+    Project     <ALT>1
 
-    Switcher 	<C><TAB>
+####Code jumps
+    To defini.  <C>b
+
+####Editing
+    Commenting  <C>/
+    Block comm. <C><ALT>/
