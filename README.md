@@ -49,6 +49,8 @@ Settings for all Intellij IDE-s
             > Find action         <ALT>a
             > Find in project     <ALT>p
             > Switcher            <ALT><TAB>
+            > Comment line        <ALT>/
+            > Comment block       <ALT><S>/
 
     >>> JavaScript
 
@@ -97,5 +99,5 @@ Settings for all Intellij IDE-s
     To defini.  <C>b
 
 ####Editing
-    Commenting  <ALT><SPACE>
-    Block comm. <ALT><SPACE>/
+    Commenting  <ALT>/
+    Block comm. <ALT><S>/
