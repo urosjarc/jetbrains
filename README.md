@@ -79,7 +79,7 @@ Settings for all Intellij IDE-s
 ####Multiple cursors
     Mouse select    <ALT><MR>
     Find under cur. <ALT>j
-    Unsel chosen    <ALT><S>j
+    Unsel. chosen.  <ALT><S>j
     Up              <ALT>Num-
     Down            <ALT>Num+
 

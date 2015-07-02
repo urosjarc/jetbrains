@@ -1,4 +1,82 @@
-"KEY SHORTCUTS"
+"CONSTANTS"
     let mapleader=" "
-    "LEADER COMMAND"
-    nnoremap <leader>Ve "iThis is leaderVe"
+
+"SET VARIBLES"
+    set smartcase
+    set ignorecase
+    set scrolloff=30
+    set sidescrolloff=9999
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
