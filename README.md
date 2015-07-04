@@ -1,117 +1,44 @@
 #PRO.Intellij
 Settings for all Intellij IDE-s
 
-##System settings
- - https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit
+##Requirements
+Command:
+ - zip
+ - unzip
+ - meld
 
-##Plugins
- - ideavim
- - .ignore
- - Key promoter
- - CodeGlance
- - Markdown
- - https://github.com/jkaving/intellij-colors-solarized
+##Makefile
 
-##Modified settings
-
-    Appearance & Begavior > Appearance > Override default fonts by >
-                                                                   > Name(Dialog)
-                                                                   > Size(10)
-                                                                   > Theme(Darcula)
-                                       > Animate window(FALSE)
-                               
-    Editor > Colors & Fonts > Font > 
-                                   > Size(11)
-                                   > Line spacing(1)
-                                   > Scheme(Solarized Light)
-           > Code Style > 
-                        > Use tab character(TRUE)
-                        > Smart tabs(TRUE)
-                        > Keep indents on empty line(FALSE)
-                        > Detect and use existing indents on file editing(FALSE)
-                        > Python,Json,js > Use tab character(TRUE)
-									     > Smart tabs(TRUE)
-									     > Tab size(4)
-									     > Indent(4)
-									     > Continuation indent(4,js(8))
-           > General > Code Completion >
-                                       > Autopopup in (ms):(TRUE,0)
-           	         > Code Folding >
-                                    > Documentation comments(TRUE)
-									> Method bodies(TRUE)
-									> Custom folding regions(TRUE)
-					 > Appearance >
-					              > Show line numbers(TRUE)
-					 > Editor Tabs >
-					               > Show tabs in single row(TRUE)
-					               > Hide tabs if there is no space(FALSE)
-					               > Show close button on editor tabs(FALSE)
-					               > Mark modified tabs with asterisk(TRUE)
-
-    Version Control > GitHub > 
-                             > Login(*)
-                             > Password(*)
-
-    Other settings > Vim Emulation >
-				   > *(IDE)
-				   > Replace...(VIM)
-
-    Keymaps >
-            > Clone caret up      <ALT>Num-
-            > Clone caret dow.    <ALT>Num+
-            > Search everywhere   <ALT>s
-            > Find action         <ALT>a
-            > Find in project     <ALT>p
-            > Switcher            <ALT><TAB>
-            > Comment line        <ALT>/
-            > Comment block       <ALT><S>/
-
-    >>> JavaScript
-
-    Languages & Frameworks > Node.js and NPM >
-                                             > Sources of Node.js Core Modules(SET)
-                                             
-    
-##Modified configuration
-    View > Navigation bar(FALSE)
-         > Status bar(FALSE)
-         > Active editor > Show line numbers(TRUE)
-    Window > Editor Tabs > Tabs Placement > Show tabs in single row(FALSE)
-    <project gear> > 
-                   > Sort by type(TRUE)
-                   
-    ---> Set every (View > Tool Window > * ) to show
-    ---> Set every (-//- > Tool Window > *, not Structure) to Docked mode(FALSE)
-    
-
-##Snipets
-    Settings > Editor > Live Templates
+    settings-jar - Create settings .jar file from global settings 
+    diff-jar     - Diff .jar file with global settings 
+    diff-jars    - Diff 2 .jar files
+    clean        - Clean not used elements.
+    install      - Create settings .jar file and reset the ideavimrc
 
 ##Shortcuts
 
-####Hellper
+Hellper
     Intention act.  <ALT><ENTER>
 
-####Multiple cursors
+Multiple cursors
     Mouse select    <ALT><MR>
     Find under cur. <ALT>j
     Unsel. chosen.  <ALT><S>j
     Up              <ALT>Num-
     Down            <ALT>Num+
 
-####Find
-
+Find
     Search      <ALT>s
     Action		<ALT>a	
     In project  <ALT>p
 
-####Navigate
+Navigate
     Switcher    <ALT><TAB>
     Project     <ALT>1
 
-####Code jumps
+Code jumps
     To defini.  <C>b
 
-####Editing
+Editing
     Commenting  <ALT>/
     Block comm. <ALT><S>/

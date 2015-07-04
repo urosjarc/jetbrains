@@ -20,6 +20,7 @@ diff-jar:
 	
 	mkdir tmp
 	cp $(jar) tmp
+	rm tmp/*.jar
 	cd tmp && unzip *.jar
 
 	meld settings tmp
