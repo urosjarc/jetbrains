@@ -1,0 +1,28 @@
+<keymap version="1" name="urosjarc" parent="$default">
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift alt SLASH" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="alt SLASH" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="alt SUBTRACT" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="alt ADD" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="alt P" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="alt A" />
+  </action>
+  <action id="HippieBackwardCompletion" />
+  <action id="HippieCompletion" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="alt S" />
+  </action>
+  <action id="Switcher">
+    <keyboard-shortcut first-keystroke="alt TAB" />
+  </action>
+</keymap>
