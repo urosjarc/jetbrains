@@ -27,12 +27,26 @@ Settings for all Intellij IDE-s
            > Code Style > 
                         > Use tab character(TRUE)
                         > Smart tabs(TRUE)
+                        > Keep indents on empty line(FALSE)
+                        > Detect and use existing indents on file editing(FALSE)
+                        > Python,Json,js > Use tab character(TRUE)
+									     > Smart tabs(TRUE)
+									     > Tab size(4)
+									     > Indent(4)
+									     > Continuation indent(4,js(8))
            > General > Code Completion >
                                        > Autopopup in (ms):(TRUE,0)
-           	     > Code Folding >
+           	         > Code Folding >
                                     > Documentation comments(TRUE)
-                          	    > Method bodies(TRUE)
-                                    > Custom folding regions(TRUE)
+									> Method bodies(TRUE)
+									> Custom folding regions(TRUE)
+					 > Appearance >
+					              > Show line numbers(TRUE)
+					 > Editor Tabs >
+					               > Show tabs in single row(TRUE)
+					               > Hide tabs if there is no space(FALSE)
+					               > Show close button on editor tabs(FALSE)
+					               > Mark modified tabs with asterisk(TRUE)
 
     Version Control > GitHub > 
                              > Login(*)
