@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="alt C" />
+  </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="shift alt SLASH" />
   </action>
@@ -17,12 +20,37 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt A" />
   </action>
-  <action id="HippieBackwardCompletion" />
-  <action id="HippieCompletion" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="alt U" />
+  </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="alt shift J" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="alt shift L" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt S" />
   </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="alt N" />
+  </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="alt TAB" />
+  </action>
+  <action id="UnselectPreviousOccurrence">
+    <keyboard-shortcut first-keystroke="alt shift N" />
+  </action>
+  <action id="VimWindowDown">
+    <keyboard-shortcut first-keystroke="alt J" />
+  </action>
+  <action id="VimWindowLeft">
+    <keyboard-shortcut first-keystroke="alt L" />
+  </action>
+  <action id="VimWindowRight">
+    <keyboard-shortcut first-keystroke="alt H" />
+  </action>
+  <action id="VimWindowUp">
+    <keyboard-shortcut first-keystroke="alt K" />
   </action>
 </keymap>
