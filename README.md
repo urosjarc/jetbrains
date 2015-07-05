@@ -18,9 +18,11 @@ Command:
 ##Shortcuts
 
 Hellper
+
     Intention act.  <ALT><ENTER>
 
 Multiple cursors
+
     Mouse select    <ALT><MR>
     Find under cur. <ALT>j
     Unsel. chosen.  <ALT><S>j
@@ -28,17 +30,21 @@ Multiple cursors
     Down            <ALT>Num+
 
 Find
+
     Search      <ALT>s
     Action		<ALT>a	
     In project  <ALT>p
 
 Navigate
+
     Switcher    <ALT><TAB>
     Project     <ALT>1
 
 Code jumps
+
     To defini.  <C>b
 
 Editing
+
     Commenting  <ALT>/
     Block comm. <ALT><S>/
