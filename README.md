@@ -14,7 +14,8 @@ Command:
 	diff-jar - Diff .jar file with global settings folder.
 	diff-jars - Diff 2 .jar files
 	clean - Clean not used elements.
-	install - Create settings .jar file and reset the ideavimrc
+	install - Create settings .jar file and reset the ideavimrc, and update README.md
+	readme - Update README.md file
 
 ##Plugins
 
