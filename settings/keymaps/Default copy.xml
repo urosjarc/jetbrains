@@ -8,6 +8,9 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt SLASH" />
   </action>
+  <action id="EditorChooseLookupItemReplace">
+    <keyboard-shortcut first-keystroke="ENTER" />
+  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="alt SUBTRACT" />
   </action>
