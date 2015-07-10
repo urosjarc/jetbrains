@@ -6,3 +6,11 @@
     set ignorecase
     set scrolloff=30
     set sidescrolloff=9999
+
+"MAPING SHORTCUTS"
+
+    "WINDOW"
+        map <A-j> <C-w>j
+        map <A-k> <C-w>k
+        map <A-h> <C-w>h
+        map <A-l> <C-w>l

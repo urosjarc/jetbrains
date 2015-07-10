@@ -42,9 +42,5 @@ Command:
 	SelectNextOccurrence          	alt N
 	Switcher                      	alt TAB
 	UnselectPreviousOccurrence    	alt shift N
-	VimWindowDown                 	alt J
-	VimWindowLeft                 	alt L
-	VimWindowRight                	alt H
-	VimWindowUp                   	alt K
 
 	

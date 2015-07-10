@@ -8,6 +8,7 @@ help:
 
 install:
 	cp ideavimrc ~/.ideavimrc
+	sudo chmod 777 ~/.ideavimrc
 	$(MAKE) settings-jar
 	$(MAKE) readme
 
