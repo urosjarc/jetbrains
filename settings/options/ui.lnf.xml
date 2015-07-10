@@ -7,6 +7,6 @@
     <option name="HIDE_TABS_IF_NEED" value="false" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
-    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="true" />
+    <option name="MARK_MODIFIED_TABS_WITH_ASTERISK" value="false" />
   </component>
 </application>
