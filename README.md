@@ -35,6 +35,7 @@ Command:
 	EditorCloneCaretBelow         	alt ADD
 	FindInPath                    	alt P
 	GotoAction                    	alt A
+	HippieBackwardCompletion      	alt SPACE
 	MoveEditorToOppositeTabGroup  	alt U
 	MoveTabDown                   	alt shift J
 	MoveTabRight                  	alt shift L
