@@ -24,6 +24,7 @@ Command:
  - Key promoter
  - markdown
  - codeglance
+ - relativeLineNumbers
 
 ##Keymaps
 

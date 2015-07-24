@@ -4,3 +4,4 @@ IdeaVIM
 Key promoter
 net.nicoulaj.idea.markdown
 net.vektah.codeglance
+org.vayafulano.relativeLineNumbers
