@@ -4,7 +4,8 @@
 "SET VARIBLES"
     set smartcase
     set ignorecase
-    set sidescrolloff=9999
+    set sidescrolloff=20
+    set scrolloff=10
 
 "MAPING SHORTCUTS"
 
@@ -14,6 +15,3 @@
         map <A-h> <C-w>h
         map <A-l> <C-w>l
 
-    "EDITOR"
-        map j jzz
-        map k kzz
