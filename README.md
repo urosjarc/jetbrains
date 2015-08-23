@@ -22,6 +22,7 @@ Command:
  - gitignore
  - IdeaVIM
  - Key promoter
+ - gluonhq
  - codeglance
  - markdown
  - relativeLineNumbers
