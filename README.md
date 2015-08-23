@@ -22,8 +22,8 @@ Command:
  - gitignore
  - IdeaVIM
  - Key promoter
- - markdown
  - codeglance
+ - markdown
  - relativeLineNumbers
 
 ##Keymaps

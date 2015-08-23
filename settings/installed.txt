@@ -2,6 +2,6 @@ com.intellij
 mobi.hsz.idea.gitignore
 IdeaVIM
 Key promoter
-net.nicoulaj.idea.markdown
 net.vektah.codeglance
+org.intellij.plugins.markdown
 org.vayafulano.relativeLineNumbers
