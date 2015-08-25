@@ -4,5 +4,5 @@ IdeaVIM
 Key promoter
 gluonhq
 net.vektah.codeglance
-org.intellij.plugins.markdown
+net.nicoulaj.idea.markdown
 org.vayafulano.relativeLineNumbers
