@@ -2,7 +2,8 @@ com.intellij
 mobi.hsz.idea.gitignore
 IdeaVIM
 Key promoter
+Statistic
 gluonhq
-net.vektah.codeglance
 net.nicoulaj.idea.markdown
+net.vektah.codeglance
 org.vayafulano.relativeLineNumbers

@@ -22,9 +22,10 @@ Command:
  - gitignore
  - IdeaVIM
  - Key promoter
+ - Statistic
  - gluonhq
- - codeglance
  - markdown
+ - codeglance
  - relativeLineNumbers
 
 ##Keymaps
