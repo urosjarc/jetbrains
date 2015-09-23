@@ -30,6 +30,7 @@ Command:
 
 ##Keymaps
 
+	ActivateTerminalToolWindow    	alt enter
 	CloseContent                  	alt C
 	CommentByBlockComment         	shift alt SLASH
 	CommentByLineComment          	alt SLASH
@@ -44,6 +45,7 @@ Command:
 	MoveTabRight                  	alt shift L
 	SearchEverywhere              	alt S
 	SelectNextOccurrence          	alt N
+	ShowIntentionActions          	alt back_slash
 	Switcher                      	alt TAB
 	UnselectPreviousOccurrence    	alt shift N
 

@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt C" />
   </action>
@@ -41,6 +44,9 @@
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt N" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
   </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="alt TAB" />
