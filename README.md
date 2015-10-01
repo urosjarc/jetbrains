@@ -26,6 +26,7 @@ Command:
  - gluonhq
  - markdown
  - codeglance
+ - editorconfigjetbrains
  - relativeLineNumbers
 
 ##Keymaps

@@ -6,4 +6,5 @@ Statistic
 gluonhq
 net.nicoulaj.idea.markdown
 net.vektah.codeglance
+org.editorconfig.editorconfigjetbrains
 org.vayafulano.relativeLineNumbers
