@@ -12,13 +12,6 @@ install:
 	$(MAKE) settings-jar
 	$(MAKE) readme
 
-readme:
-	cd scripts && python makeReadme.py
-
-settings-jar:
-	cd settings/ && zip -r settings.jar * 
-	mv settings/settings.jar .
-
 diff-jar:
 	echo ">>> jar = $(jar) <<<"
 	
@@ -32,6 +25,13 @@ diff-jar:
 	meld settings tmp
 	
 	rm tmp -rf
+
+readme:
+	cd scripts && python makeReadme.py
+
+settings-jar:
+	cd settings/ && zip -r settings.jar * 
+	mv settings/settings.jar .
 
 diff-jars:
 	echo ">>> jar1 = $(jar1) <<<"
