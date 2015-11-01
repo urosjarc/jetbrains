@@ -1,6 +1,6 @@
 
-#PRO.Intellij
-Settings for all Intellij IDE-s
+#jetbrains
+Settings for all JetBrain IDE-s
 
 ##Requirements
 Command:
