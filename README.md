@@ -43,7 +43,9 @@ Command:
 	HippieBackwardCompletion      	alt SPACE
 	MoveEditorToOppositeTabGroup  	alt U
 	MoveTabDown                   	alt shift J
-	MoveTabRight                  	alt shift L
+	MoveTabRight                  	shift alt l
+	NextTab                       	alt l
+	PreviousTab                   	alt h
 	SearchEverywhere              	alt S
 	SelectNextOccurrence          	alt N
 	ShowIntentionActions          	alt back_slash

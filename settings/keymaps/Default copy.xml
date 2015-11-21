@@ -37,7 +37,13 @@
     <keyboard-shortcut first-keystroke="alt shift J" />
   </action>
   <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="alt shift L" />
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt h" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt S" />
