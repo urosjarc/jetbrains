@@ -34,7 +34,8 @@ Command:
 	ActivateTerminalToolWindow    	alt enter
 	CloseContent                  	alt C
 	CommentByBlockComment         	shift alt SLASH
-	CommentByLineComment          	alt SLASH
+	CommentByLineComment          	alt slash
+	EditSourceInNewWindow         	shift alt space
 	EditorChooseLookupItemReplace 	ENTER
 	EditorCloneCaretAbove         	alt SUBTRACT
 	EditorCloneCaretBelow         	alt ADD

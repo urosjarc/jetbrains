@@ -9,7 +9,10 @@
     <keyboard-shortcut first-keystroke="shift alt SLASH" />
   </action>
   <action id="CommentByLineComment">
-    <keyboard-shortcut first-keystroke="alt SLASH" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="EditSourceInNewWindow">
+    <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
   <action id="EditorChooseLookupItemReplace">
     <keyboard-shortcut first-keystroke="ENTER" />
