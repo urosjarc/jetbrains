@@ -1,3 +1,4 @@
+Gitflow
 com.intellij
 mobi.hsz.idea.gitignore
 IdeaVIM
@@ -7,5 +8,6 @@ gluonhq
 net.nicoulaj.idea.markdown
 net.vektah.codeglance
 org.editorconfig.editorconfigjetbrains
+bitbucket
 org.vayafulano.relativeLineNumbers
 lombok

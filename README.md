@@ -19,6 +19,7 @@ Command:
 
 ##Plugins
 
+ - Gitflow
  - gitignore
  - IdeaVIM
  - Key promoter
@@ -27,6 +28,7 @@ Command:
  - markdown
  - codeglance
  - editorconfigjetbrains
+ - bitbucket
  - relativeLineNumbers
  - lombok
 
