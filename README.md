@@ -28,6 +28,7 @@ Command:
  - codeglance
  - editorconfigjetbrains
  - relativeLineNumbers
+ - lombok
 
 ##Keymaps
 
