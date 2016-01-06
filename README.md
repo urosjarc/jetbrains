@@ -38,6 +38,7 @@ Command:
 	CloseContent                  	alt C
 	CommentByBlockComment         	shift alt SLASH
 	CommentByLineComment          	alt slash
+	EditSource                    	enter
 	EditSourceInNewWindow         	shift alt space
 	EditorChooseLookupItemReplace 	ENTER
 	EditorCloneCaretAbove         	alt SUBTRACT
