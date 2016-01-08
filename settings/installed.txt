@@ -8,6 +8,6 @@ gluonhq
 net.nicoulaj.idea.markdown
 net.vektah.codeglance
 org.editorconfig.editorconfigjetbrains
-bitbucket
+org.bitbucket.connector
 org.vayafulano.relativeLineNumbers
 lombok
