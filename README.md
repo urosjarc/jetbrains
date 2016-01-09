@@ -28,7 +28,7 @@ Command:
  - markdown
  - codeglance
  - editorconfigjetbrains
- - bitbucket
+ - connector
  - relativeLineNumbers
  - lombok
 
