@@ -19,7 +19,6 @@ Command:
 
 ##Plugins
 
- - Gitflow
  - gitignore
  - IdeaVIM
  - Key promoter

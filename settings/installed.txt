@@ -1,4 +1,3 @@
-Gitflow
 com.intellij
 mobi.hsz.idea.gitignore
 IdeaVIM
