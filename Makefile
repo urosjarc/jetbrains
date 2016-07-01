@@ -3,12 +3,10 @@ help:
 	@echo "diff-jar     - Diff .jar file with global settings folder."
 	@echo "diff-jars    - Diff 2 .jar files"
 	@echo "clean        - Clean not used elements."
-	@echo "install      - Create settings .jar file and reset the ideavimrc, and update README.md"
+	@echo "install      - Create settings .jar file and update README.md"
 	@echo "readme       - Update README.md file"
 
 install:
-	cp ideavimrc ~/.ideavimrc
-	sudo chmod 777 ~/.ideavimrc
 	$(MAKE) settings-jar
 	$(MAKE) readme
 
