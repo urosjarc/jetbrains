@@ -1,6 +1,7 @@
 <application>
   <component name="NotificationConfiguration">
-    <notification groupId="Platform and Plugin Updates" displayType="STICKY_BALLOON" shouldLog="false" />
-    <notification groupId="Plugins Suggestion" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="File Watcher Messages" displayType="NONE" />
+    <notification groupId="Platform and Plugin Updates" displayType="NONE" />
+    <notification groupId="Plugins Suggestion" displayType="NONE" />
   </component>
 </application>
