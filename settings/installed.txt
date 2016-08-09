@@ -10,3 +10,4 @@ org.editorconfig.editorconfigjetbrains
 org.bitbucket.connector
 org.vayafulano.relativeLineNumbers
 lombok
+org.sonarlint.idea
