@@ -1,13 +1,10 @@
-com.intellij
-mobi.hsz.idea.gitignore
+.gitignore
 IdeaVIM
 Key promoter
 Statistic
 gluonhq
-net.nicoulaj.idea.markdown
-net.vektah.codeglance
-org.editorconfig.editorconfigjetbrains
-org.bitbucket.connector
-org.vayafulano.relativeLineNumbers
+markdown
+codeglance
+relativeLineNumbers
 lombok
-org.sonarlint.idea
+sonarlint

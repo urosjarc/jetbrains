@@ -7,7 +7,7 @@
             <processorPath useClasspath="true" />
           </profile>
         </annotationProcessing>
-	<bytecodeTargetLevel target="1.8" />
+	<bytecodeTargetLevel target="1.9" />
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
     </defaultProject>

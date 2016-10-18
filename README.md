@@ -26,10 +26,9 @@ Command:
  - gluonhq
  - markdown
  - codeglance
- - editorconfigjetbrains
- - connector
  - relativeLineNumbers
  - lombok
+ - sonarlint
 
 ##Keymaps
 
