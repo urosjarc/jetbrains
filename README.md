@@ -36,6 +36,7 @@ Command:
 	CloseContent                  	alt C
 	CommentByBlockComment         	shift alt SLASH
 	CommentByLineComment          	alt slash
+	Debug                         	alt d
 	EditSource                    	enter
 	EditSourceInNewWindow         	shift alt space
 	EditorChooseLookupItemReplace 	ENTER
@@ -49,7 +50,9 @@ Command:
 	MoveTabRight                  	shift alt l
 	NextTab                       	alt l
 	PreviousTab                   	alt h
+	Refresh                       	ctrl r
 	RenameElement                 	alt r
+	Rerun                         	ctrl r
 	SearchEverywhere              	alt S
 	SelectNextOccurrence          	alt N
 	ShowIntentionActions          	alt back_slash
