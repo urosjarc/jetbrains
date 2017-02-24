@@ -11,6 +11,9 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -53,6 +56,10 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="Replace" />
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="alt S" />
