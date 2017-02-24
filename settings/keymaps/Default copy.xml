@@ -54,6 +54,9 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
