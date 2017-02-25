@@ -50,9 +50,8 @@ Command:
 	MoveTabRight                  	shift alt l
 	NextTab                       	alt l
 	PreviousTab                   	alt h
-	Refresh                       	ctrl r
 	RenameElement                 	alt r
-	Rerun                         	ctrl r
+	Run                           	alt e
 	SearchEverywhere              	alt S
 	SelectNextOccurrence          	alt N
 	ShowIntentionActions          	alt back_slash
