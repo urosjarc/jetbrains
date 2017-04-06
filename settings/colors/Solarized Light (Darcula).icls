@@ -1,9 +1,10 @@
-<scheme name="Solarized Light (Darcula)" version="141" parent_scheme="Default">
-  <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="11" />
+<scheme name="Solarized Light (Darcula)" version="142" parent_scheme="Default">
+  <option name="FONT_SCALE" value="1.0" />
+  <option name="LINE_SPACING" value="0.8" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="CONSOLE_FONT_NAME" value="DejaVu Sans Mono" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="baeeba" />
     <option name="ANNOTATIONS_COLOR" value="586e75" />
