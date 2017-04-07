@@ -58,4 +58,6 @@ Command:
 	Switcher                      	alt TAB
 	UnselectPreviousOccurrence    	alt shift N
 
-	
+## Screen shot
+
+![](screenShot.png)
