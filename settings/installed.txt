@@ -1,6 +1,5 @@
 .gitignore
 IdeaVIM
-Key promoter
 Statistic
 gluonhq
 markdown
