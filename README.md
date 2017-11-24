@@ -19,15 +19,14 @@ Command:
 
 ##Plugins
 
- - gitignore
+ - BashSupport
  - IdeaVIM
  - Statistic
- - gluonhq
- - markdown
+ - MaterialThemeUI
+ - multimarkdown
+ - gitignore
  - codeglance
  - relativeLineNumbers
- - lombok
- - sonarlint
 
 ##Keymaps
 
