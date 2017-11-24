@@ -21,7 +21,6 @@ Command:
 
  - gitignore
  - IdeaVIM
- - Key promoter
  - Statistic
  - gluonhq
  - markdown
@@ -58,6 +57,4 @@ Command:
 	Switcher                      	alt TAB
 	UnselectPreviousOccurrence    	alt shift N
 
-## Screen shot
-
-![](screenShot.png)
+	

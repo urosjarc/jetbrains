@@ -1,9 +1,8 @@
-.gitignore
+BashSupport
 IdeaVIM
 Statistic
-gluonhq
-markdown
-codeglance
-relativeLineNumbers
-lombok
-sonarlint
+com.chrisrm.idea.MaterialThemeUI
+com.vladsch.idea.multimarkdown
+mobi.hsz.idea.gitignore
+net.vektah.codeglance
+org.vayafulano.relativeLineNumbers
