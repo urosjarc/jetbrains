@@ -1,8 +1,11 @@
 BashSupport
 IdeaVIM
 Statistic
+awesome.console
 com.chrisrm.idea.MaterialThemeUI
+com.fedot.idea.requirejs
 com.vladsch.idea.multimarkdown
 mobi.hsz.idea.gitignore
 net.vektah.codeglance
+org.intellij.RegexpTester
 org.vayafulano.relativeLineNumbers
