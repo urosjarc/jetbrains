@@ -1,7 +1,6 @@
 BashSupport
 IdeaVIM
 Statistic
-awesome.console
 com.chrisrm.idea.MaterialThemeUI
 com.fedot.idea.requirejs
 com.vladsch.idea.multimarkdown
