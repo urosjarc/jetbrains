@@ -1,9 +1,5 @@
-.gitignore
 IdeaVIM
-Statistic
-gluonhq
-markdown
-codeglance
-relativeLineNumbers
-lombok
-sonarlint
+com.vladsch.idea.multimarkdown
+mobi.hsz.idea.gitignore
+net.vektah.codeglance
+org.vayafulano.relativeLineNumbers

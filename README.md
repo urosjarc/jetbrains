@@ -19,16 +19,11 @@ Command:
 
 ##Plugins
 
- - gitignore
  - IdeaVIM
- - Key promoter
- - Statistic
- - gluonhq
- - markdown
+ - multimarkdown
+ - gitignore
  - codeglance
  - relativeLineNumbers
- - lombok
- - sonarlint
 
 ##Keymaps
 
@@ -58,6 +53,4 @@ Command:
 	Switcher                      	alt TAB
 	UnselectPreviousOccurrence    	alt shift N
 
-## Screen shot
-
-![](screenShot.png)
+	
