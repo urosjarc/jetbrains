@@ -1,18 +1,18 @@
 class Readme(object):
 
 	template = """
-#jetbrains
+# jetbrains
 Settings for all JetBrains IDE-s
 
-##Requirements
+## Requirements
 Command:
  - zip
  - unzip
  - meld
 
-##Makefile
-##Plugins
-##Keymaps
+## Makefile
+## Plugins
+## Keymaps
 	"""
 
 	def __init__(self,path):
@@ -92,9 +92,6 @@ Command:
 		def lineStringMethod(arrayText,i):
 			installedLine = arrayText[i].replace('\n','')
 
-			if '.' in installedLine:
-				installedLine = installedLine.split('.')[-1]
-
 			if not installedLine in skip:
 				return ' - {}'.format(
 					installedLine
@@ -105,9 +102,9 @@ Command:
 
 if __name__ == "__main__":
 	readme = Readme(path='../README.md')
-	readme.addMakefile(addToreadmeHeader='##Makefile',path='../Makefile')
-	readme.addKeymaps(addToreadmeHeader='##Keymaps', path='../settings/keymaps/Default copy.xml')
-	readme.addPlugins(addToreadmeHeader='##Plugins', path='../settings/installed.txt',
+	readme.addMakefile(addToreadmeHeader='## Makefile',path='../Makefile')
+	readme.addKeymaps(addToreadmeHeader='## Keymaps', path='../settings/keymaps/Default copy.xml')
+	readme.addPlugins(addToreadmeHeader='## Plugins', path='../settings/installed.txt',
 	                  skip=['intellij']
 	)
 	readme.update()

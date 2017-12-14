@@ -1,14 +1,14 @@
 
-#jetbrains
+# jetbrains
 Settings for all JetBrains IDE-s
 
-##Requirements
+## Requirements
 Command:
  - zip
  - unzip
  - meld
 
-##Makefile
+## Makefile
 
 	settings-jar - Create settings .jar file from global settings folder.
 	diff-jar - Diff .jar file with global settings folder.
@@ -17,15 +17,17 @@ Command:
 	install - Create settings .jar file and update README.md
 	readme - Update README.md file
 
-##Plugins
+## Plugins
 
  - IdeaVIM
- - multimarkdown
- - gitignore
- - codeglance
- - relativeLineNumbers
+ - com.vladsch.idea.multimarkdown
+ - mobi.hsz.idea.gitignore
+ - net.vektah.codeglance
+ - org.vayafulano.relativeLineNumbers
+ - com.chrisrm.idea.MaterialThemeUI
+ - org.intellij.RegexpTester
 
-##Keymaps
+## Keymaps
 
 	ActivateTerminalToolWindow    	alt enter
 	CloseContent                  	alt C
