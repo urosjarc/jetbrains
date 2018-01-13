@@ -23,9 +23,7 @@ Command:
  - com.vladsch.idea.multimarkdown
  - mobi.hsz.idea.gitignore
  - net.vektah.codeglance
- - org.vayafulano.relativeLineNumbers
  - com.chrisrm.idea.MaterialThemeUI
- - org.intellij.RegexpTester
 
 ## Keymaps
 
