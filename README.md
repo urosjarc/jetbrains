@@ -20,6 +20,7 @@ Command:
 ## Plugins
 
  - IdeaVIM
+ - BashSupport
  - com.vladsch.idea.multimarkdown
  - mobi.hsz.idea.gitignore
  - net.vektah.codeglance
