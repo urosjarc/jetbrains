@@ -28,30 +28,31 @@ Command:
 
 ## Keymaps
 
+	$Undo                         	ctrl z
 	ActivateTerminalToolWindow    	alt enter
-	CloseContent                  	alt C
-	CommentByBlockComment         	shift alt SLASH
+	CloseContent                  	alt c
+	CommentByBlockComment         	shift alt slash
 	CommentByLineComment          	alt slash
 	Debug                         	alt d
 	EditSource                    	enter
 	EditSourceInNewWindow         	shift alt space
-	EditorChooseLookupItemReplace 	ENTER
-	EditorCloneCaretAbove         	alt SUBTRACT
-	EditorCloneCaretBelow         	alt ADD
-	FindInPath                    	alt P
-	GotoAction                    	alt A
-	HippieBackwardCompletion      	alt SPACE
-	MoveEditorToOppositeTabGroup  	alt U
-	MoveTabDown                   	alt shift J
+	EditorChooseLookupItemReplace 	enter
+	EditorCloneCaretAbove         	alt subtract
+	EditorCloneCaretBelow         	alt add
+	FindInPath                    	alt p
+	GotoAction                    	alt a
+	HippieBackwardCompletion      	alt space
+	MoveEditorToOppositeTabGroup  	alt u
+	MoveTabDown                   	shift alt j
 	MoveTabRight                  	shift alt l
 	NextTab                       	alt l
 	PreviousTab                   	alt h
 	RenameElement                 	alt r
 	Run                           	alt e
-	SearchEverywhere              	alt S
-	SelectNextOccurrence          	alt N
-	ShowIntentionActions          	alt back_slash
-	Switcher                      	alt TAB
-	UnselectPreviousOccurrence    	alt shift N
+	SearchEverywhere              	alt s
+	SelectNextOccurrence          	alt n
+	ShowIntentionActions          	alt back_space
+	Switcher                      	alt tab
+	UnselectPreviousOccurrence    	shift alt n
 
 	
