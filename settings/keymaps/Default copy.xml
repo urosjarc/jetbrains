@@ -1,12 +1,15 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="CloseContent">
-    <keyboard-shortcut first-keystroke="alt C" />
+    <keyboard-shortcut first-keystroke="alt c" />
   </action>
   <action id="CommentByBlockComment">
-    <keyboard-shortcut first-keystroke="shift alt SLASH" />
+    <keyboard-shortcut first-keystroke="shift alt slash" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt slash" />
@@ -21,29 +24,29 @@
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
   <action id="EditorChooseLookupItemReplace">
-    <keyboard-shortcut first-keystroke="ENTER" />
+    <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="alt SUBTRACT" />
+    <keyboard-shortcut first-keystroke="alt subtract" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="alt ADD" />
+    <keyboard-shortcut first-keystroke="alt add" />
   </action>
   <action id="FindInPath">
-    <keyboard-shortcut first-keystroke="alt P" />
+    <keyboard-shortcut first-keystroke="alt p" />
   </action>
   <action id="GotoAction">
-    <keyboard-shortcut first-keystroke="alt A" />
+    <keyboard-shortcut first-keystroke="alt a" />
   </action>
   <action id="HippieBackwardCompletion">
-    <keyboard-shortcut first-keystroke="alt SPACE" />
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="HippieCompletion" />
   <action id="MoveEditorToOppositeTabGroup">
-    <keyboard-shortcut first-keystroke="alt U" />
+    <keyboard-shortcut first-keystroke="alt u" />
   </action>
   <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="alt shift J" />
+    <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift alt l" />
@@ -61,19 +64,19 @@
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="alt S" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SelectNextOccurrence">
-    <keyboard-shortcut first-keystroke="alt N" />
+    <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="alt back_slash" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="Switcher">
-    <keyboard-shortcut first-keystroke="alt TAB" />
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="UnselectPreviousOccurrence">
-    <keyboard-shortcut first-keystroke="alt shift N" />
+    <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="context.load" />
   <action id="tasks.goto" />
