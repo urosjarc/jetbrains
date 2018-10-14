@@ -39,6 +39,8 @@ Command:
 	EditorChooseLookupItemReplace 	enter
 	EditorCloneCaretAbove         	alt subtract
 	EditorCloneCaretBelow         	alt add
+	EditorDecreaseFontSize        	ctrl alt kp_down
+	EditorIncreaseFontSize        	ctrl alt kp_up
 	FindInPath                    	alt p
 	GotoAction                    	alt a
 	HippieBackwardCompletion      	alt space

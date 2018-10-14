@@ -32,6 +32,12 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="alt add" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl alt kp_down" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl alt kp_up" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
