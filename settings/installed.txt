@@ -1,5 +1,7 @@
 IdeaVIM
 BashSupport
+Keypromoter
+Rainbow brackets
 com.vladsch.idea.multimarkdown
 mobi.hsz.idea.gitignore
 net.vektah.codeglance
