@@ -21,6 +21,8 @@ Command:
 
  - IdeaVIM
  - BashSupport
+ - Keypromoter
+ - Rainbow brackets
  - com.vladsch.idea.multimarkdown
  - mobi.hsz.idea.gitignore
  - net.vektah.codeglance
@@ -34,7 +36,6 @@ Command:
 	CommentByBlockComment         	shift alt slash
 	CommentByLineComment          	alt slash
 	Debug                         	alt d
-	EditSource                    	enter
 	EditSourceInNewWindow         	shift alt space
 	EditorChooseLookupItemReplace 	enter
 	EditorCloneCaretAbove         	alt subtract
