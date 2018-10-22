@@ -36,6 +36,7 @@ Command:
 	CommentByBlockComment         	shift alt slash
 	CommentByLineComment          	alt slash
 	Debug                         	alt d
+	EditSource                    	f4
 	EditSourceInNewWindow         	shift alt space
 	EditorChooseLookupItemReplace 	enter
 	EditorCloneCaretAbove         	alt subtract
