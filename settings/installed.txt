@@ -1,4 +1,5 @@
 IdeaVIM
+plantUML
 BashSupport
 Keypromoter
 Rainbow brackets
