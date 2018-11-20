@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -18,7 +18,8 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="right" />
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
