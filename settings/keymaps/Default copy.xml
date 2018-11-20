@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
