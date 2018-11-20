@@ -1,9 +1,9 @@
 IdeaVIM
 plantUML
-BashSupport
+Bash Support
 Keypromoter
 Rainbow brackets
-com.vladsch.idea.multimarkdown
-mobi.hsz.idea.gitignore
-net.vektah.codeglance
-com.chrisrm.idea.MaterialThemeUI
+Multimarkdown
+.gitignore
+Code glance
+Material ThemeUI

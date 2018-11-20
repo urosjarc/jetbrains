@@ -45,6 +45,9 @@
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -64,6 +67,9 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -77,7 +83,7 @@
     <keyboard-shortcut first-keystroke="alt n" />
   </action>
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="alt w" />
   </action>
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="alt tab" />
