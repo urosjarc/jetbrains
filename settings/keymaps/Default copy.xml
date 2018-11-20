@@ -18,7 +18,6 @@
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="f4" />
     <keyboard-shortcut first-keystroke="right" />
   </action>
   <action id="EditSourceInNewWindow">
@@ -70,9 +69,10 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
-  <action id="RenameElement">
+  <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
