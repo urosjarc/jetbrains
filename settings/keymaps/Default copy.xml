@@ -24,9 +24,6 @@
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
-  <action id="EditorChooseLookupItemReplace">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="alt subtract" />
   </action>
