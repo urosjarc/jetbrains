@@ -48,7 +48,6 @@
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
-  <action id="HippieCompletion" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
@@ -70,7 +69,6 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -89,6 +87,8 @@
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
+  <action id="RerunTests" />
+  <action id="HippieCompletion" />
   <action id="context.load" />
   <action id="tasks.goto" />
 </keymap>
