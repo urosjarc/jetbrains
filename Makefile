@@ -7,7 +7,6 @@ help:
 	@echo "readme       - Update README.md file"
 
 install:
-	$(MAKE) color
 	$(MAKE) settings-jar
 	$(MAKE) readme
 
