@@ -26,7 +26,6 @@ Command:
  - Markdown Navigator
  - .gitignore
  - Code glance
- - Material ThemeUI
 
 ## Keymaps
 
