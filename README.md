@@ -23,7 +23,6 @@ Command:
  - plantUML
  - Bash Support
  - Keypromoter
- - Rainbow brackets
  - Multimarkdown
  - .gitignore
  - Code glance
