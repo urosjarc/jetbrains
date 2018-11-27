@@ -30,17 +30,17 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="alt add" />
   </action>
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="alt close_bracket" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="alt open_bracket" />
+  </action>
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl alt kp_down" />
   </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl alt kp_up" />
-  </action>
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="alt v" />
-  </action>
-  <action id="EditorUnSelectWord">
-    <keyboard-shortcut first-keystroke="shift alt w" />
   </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt m" />
@@ -57,10 +57,16 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="HippieCompletion" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
@@ -87,9 +93,6 @@
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
-  </action>
-  <action id="SearchEverywhere">
-    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt n" />

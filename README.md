@@ -39,21 +39,27 @@ Command:
 	EditSourceInNewWindow         	shift alt space
 	EditorCloneCaretAbove         	alt subtract
 	EditorCloneCaretBelow         	alt add
+	EditorCodeBlockEnd            	alt close_bracket
+	EditorCodeBlockStart          	alt open_bracket
 	EditorDecreaseFontSize        	ctrl alt kp_down
 	EditorIncreaseFontSize        	ctrl alt kp_up
+	FileChooser.NewFolder         	alt m
 	FindInPath                    	alt p
+	Generate                      	alt m
 	GotoAction                    	alt a
 	GotoDeclaration               	alt g
+	GotoFile                      	alt s
 	HippieBackwardCompletion      	alt space
+	InsertLiveTemplate            	alt t
 	MoveEditorToOppositeTabGroup  	alt u
 	MoveTabDown                   	shift alt j
 	MoveTabRight                  	shift alt l
+	NewElement                    	alt m
 	NextTab                       	alt l
 	PreviousTab                   	alt h
 	QuickJavaDoc                  	alt i
 	Refactorings.QuickListPopupAction	alt r
 	Run                           	alt e
-	SearchEverywhere              	alt s
 	SelectNextOccurrence          	alt n
 	ShowIntentionActions          	alt w
 	Switcher                      	alt tab

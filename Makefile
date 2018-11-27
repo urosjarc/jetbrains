@@ -14,6 +14,7 @@ install:
 color:
 	rm settings/colors -rf
 
+	rm tmp -rf
 	mkdir tmp
 	git clone https://github.com/jkaving/intellij-colors-solarized tmp/repo
 	unzip -o tmp/repo/settings.jar -d tmp
