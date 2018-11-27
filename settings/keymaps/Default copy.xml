@@ -36,8 +36,20 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="ctrl alt kp_up" />
   </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt a" />
@@ -57,6 +69,9 @@
   </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt l" />
@@ -89,5 +104,6 @@
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="context.load" />
+  <action id="tasks.close" />
   <action id="tasks.goto" />
 </keymap>
