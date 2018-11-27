@@ -7,8 +7,20 @@ help:
 	@echo "readme       - Update README.md file"
 
 install:
+	$(MAKE) color
 	$(MAKE) settings-jar
 	$(MAKE) readme
+
+color:
+	rm settings/colors -rf
+
+	mkdir tmp
+	git clone https://github.com/jkaving/intellij-colors-solarized tmp/repo
+	unzip -o tmp/repo/settings.jar -d tmp
+	mv tmp/colors settings
+
+	rm tmp -rf
+	
 
 diff-jar:
 	echo ">>> jar = $(jar) <<<"
