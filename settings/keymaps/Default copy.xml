@@ -3,7 +3,7 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateTerminalToolWindow">
-    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -17,30 +17,20 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="alt right" />
-    <keyboard-shortcut first-keystroke="alt enter" />
-  </action>
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="alt subtract" />
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="alt add" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
   </action>
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
-  </action>
-  <action id="EditorDecreaseFontSize">
-    <keyboard-shortcut first-keystroke="ctrl alt kp_down" />
-  </action>
-  <action id="EditorIncreaseFontSize">
-    <keyboard-shortcut first-keystroke="ctrl alt kp_up" />
   </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt m" />

@@ -106,6 +106,12 @@
       <shortcut-conflict owner="vim">
         <text>alt pressed A</text>
       </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed J</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>alt pressed K</text>
+      </shortcut-conflict>
     </shortcut-conflicts>
   </component>
 </application>

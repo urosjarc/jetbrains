@@ -30,19 +30,16 @@ Command:
 ## Keymaps
 
 	$Undo                         	ctrl z
-	ActivateTerminalToolWindow    	alt back_space
+	ActivateTerminalToolWindow    	alt enter
 	CloseContent                  	alt c
 	CommentByBlockComment         	shift alt slash
 	CommentByLineComment          	alt slash
 	Debug                         	alt d
-	EditSource                    	alt right
 	EditSourceInNewWindow         	shift alt space
-	EditorCloneCaretAbove         	alt subtract
-	EditorCloneCaretBelow         	alt add
+	EditorCloneCaretAbove         	alt k
+	EditorCloneCaretBelow         	alt j
 	EditorCodeBlockEnd            	alt close_bracket
 	EditorCodeBlockStart          	alt open_bracket
-	EditorDecreaseFontSize        	ctrl alt kp_down
-	EditorIncreaseFontSize        	ctrl alt kp_up
 	FileChooser.NewFolder         	alt m
 	FindInPath                    	alt p
 	Generate                      	alt m
