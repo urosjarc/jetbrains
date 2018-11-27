@@ -2,24 +2,14 @@
   <component name="VimSettings">
     <state version="4" enabled="true" />
     <globalmarks />
-    <filemarks>
-    </filemarks>
-    <jumps>
-    </jumps>
-    <registers>
-    </registers>
+    <filemarks />
+    <jumps />
+    <registers />
     <search>
-      <last-dir>1</last-dir>
+      <last-dir>0</last-dir>
       <show-last>false</show-last>
     </search>
-    <history>
-      <history-search>
-      </history-search>
-      <history-cmd>
-      </history-cmd>
-      <history-expr />
-      <history-input />
-    </history>
+    <history />
     <shortcut-conflicts>
       <shortcut-conflict owner="ide">
         <text>ctrl pressed U</text>
