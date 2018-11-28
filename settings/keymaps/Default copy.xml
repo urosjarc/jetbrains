@@ -2,6 +2,12 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
@@ -32,6 +38,9 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+  <action id="ExternalSystem.RefreshAllProjects">
+    <keyboard-shortcut first-keystroke="shift alt r" />
+  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
@@ -49,6 +58,9 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="alt escape" />
   </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
@@ -81,6 +93,7 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
