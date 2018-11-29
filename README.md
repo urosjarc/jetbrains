@@ -26,10 +26,12 @@ Command:
  - Markdown Navigator
  - .gitignore
  - Code glance
+ - Codota
 
 ## Keymaps
 
 	$Undo                         	ctrl z
+	ActivateProjectToolWindow     	alt f
 	ActivateTerminalToolWindow    	alt enter
 	CloseContent                  	alt c
 	CommentByBlockComment         	shift alt slash
@@ -40,12 +42,15 @@ Command:
 	EditorCloneCaretBelow         	alt j
 	EditorCodeBlockEnd            	alt close_bracket
 	EditorCodeBlockStart          	alt open_bracket
+	ExternalSystem.RefreshAllProjects	shift alt r
 	FileChooser.NewFolder         	alt m
 	FindInPath                    	alt p
 	Generate                      	alt m
 	GotoAction                    	alt a
 	GotoDeclaration               	alt g
 	GotoFile                      	alt s
+	Gradle.ExecuteTask            	alt b
+	HideAllWindows                	alt escape
 	HippieBackwardCompletion      	alt space
 	InsertLiveTemplate            	alt t
 	MoveEditorToOppositeTabGroup  	alt u
