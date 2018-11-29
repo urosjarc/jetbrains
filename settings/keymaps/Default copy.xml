@@ -2,9 +2,6 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
-  <action id="ActivateGradleToolWindow">
-    <keyboard-shortcut first-keystroke="alt b" />
-  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
@@ -58,6 +55,9 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="Gradle.ExecuteTask">
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt escape" />

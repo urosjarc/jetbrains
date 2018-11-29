@@ -5,3 +5,4 @@ Keypromoter
 Markdown Navigator
 .gitignore
 Code glance
+Codota
