@@ -61,6 +61,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="GotoTest">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
@@ -71,9 +74,6 @@
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="HippieCompletion" />
-  <action id="InsertLiveTemplate">
-    <keyboard-shortcut first-keystroke="alt t" />
-  </action>
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
