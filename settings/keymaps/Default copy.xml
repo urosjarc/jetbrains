@@ -123,6 +123,9 @@
   <action id="Switcher">
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchy.BaseOnThisType" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
