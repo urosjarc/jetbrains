@@ -30,41 +30,59 @@ Command:
 
 ## Keymaps
 
-	$Undo                         	ctrl z
-	ActivateProjectToolWindow     	alt f
-	ActivateTerminalToolWindow    	alt enter
-	CloseContent                  	alt c
-	CommentByBlockComment         	shift alt slash
-	CommentByLineComment          	alt slash
-	Debug                         	alt d
-	EditSourceInNewWindow         	shift alt space
-	EditorCloneCaretAbove         	alt k
-	EditorCloneCaretBelow         	alt j
-	EditorCodeBlockEnd            	alt close_bracket
-	EditorCodeBlockStart          	alt open_bracket
-	ExternalSystem.RefreshAllProjects	shift alt r
-	FileChooser.NewFolder         	alt m
-	FindInPath                    	alt p
-	Generate                      	alt m
-	GotoAction                    	alt a
-	GotoDeclaration               	alt g
-	GotoFile                      	alt s
-	Gradle.ExecuteTask            	alt b
-	HideAllWindows                	alt escape
-	HippieBackwardCompletion      	alt space
-	InsertLiveTemplate            	alt t
-	MoveEditorToOppositeTabGroup  	alt u
-	MoveTabDown                   	shift alt j
-	MoveTabRight                  	shift alt l
-	NewElement                    	alt m
-	NextTab                       	alt l
-	PreviousTab                   	alt h
-	QuickJavaDoc                  	alt i
-	Refactorings.QuickListPopupAction	alt r
-	Run                           	alt e
-	SelectNextOccurrence          	alt n
-	ShowIntentionActions          	alt w
-	Switcher                      	alt tab
-	UnselectPreviousOccurrence    	shift alt n
+	$Undo ............................. ctrl z
+	ActivateProjectToolWindow ......... alt f
+	ActivateTerminalToolWindow ........ alt enter
+	CheckinProject .................... 
+	CloseContent ...................... alt c
+	CommentByBlockComment ............. shift alt slash
+	CommentByLineComment .............. alt slash
+	Debug ............................. alt d
+	Debugger.PopFrame ................. ctrl k
+	EditSourceInNewWindow ............. shift alt space
+	EditorCloneCaretAbove ............. alt k
+	EditorCloneCaretBelow ............. alt j
+	EditorCodeBlockEnd ................ alt close_bracket
+	EditorCodeBlockStart .............. alt open_bracket
+	ExternalSystem.RefreshAllProjects . shift alt r
+	FileChooser.NewFolder ............. alt m
+	FindInPath ........................ alt p
+	FindNext .......................... 
+	Generate .......................... alt m
+	GotoAction ........................ alt a
+	GotoDeclaration ................... alt g
+	GotoFile .......................... alt s
+	GotoTest .......................... alt t
+	Gradle.ExecuteTask ................ alt b
+	HideAllWindows .................... alt escape
+	HippieBackwardCompletion .......... alt space
+	HippieCompletion .................. 
+	InsertLiveTemplate ................ 
+	MoveEditorToOppositeTabGroup ...... alt u
+	MoveTabDown ....................... shift alt j
+	MoveTabRight ...................... shift alt l
+	NewElement ........................ alt m
+	NextTab ........................... alt l
+	PreviousTab ....................... alt h
+	QuickJavaDoc ...................... alt i
+	Refactorings.QuickListPopupAction . alt r
+	RerunTests ........................ 
+	Run ............................... alt e
+	RunToCursor ....................... alt semicolon
+	SelectNextOccurrence .............. alt n
+	ShowIntentionActions .............. alt w
+	StepInto .......................... ctrl l
+	StepOut ........................... ctrl h
+	StepOver .......................... ctrl j
+	Switcher .......................... alt tab
+	ToggleLineBreakpoint .............. ctrl b
+	TypeHierarchy ..................... 
+	TypeHierarchy.BaseOnThisType ...... 
+	TypeHierarchyBase.BaseOnThisType .. 
+	UnselectPreviousOccurrence ........ shift alt n
+	Vcs.Log.FocusTextFilter ........... 
+	context.load ...................... 
+	tasks.close ....................... 
+	tasks.goto ........................ 
 
 	

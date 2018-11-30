@@ -76,12 +76,17 @@ Command:
 
 			keyActionLine = arrayText[i].split('"')
 
-			if keyActionLine[0].strip() == '<action id=' and keyActionLine[2].strip() == '>':
+                        if keyActionLine[0].strip() == '<action id=':
+                            if keyActionLine[2].strip() == '>':
+			        keystroke = arrayText[i+1].split('"')[1]      #Keystroke
+                            else:
+                                keystroke = ""
 
-				return '\t{}\t{}'.format(
-					keyActionLine[1].ljust(30),               #Actionname
-					arrayText[i+1].split('"')[1]      #Keystroke
-				)
+                            return '\t{} {}'.format(
+                                    (keyActionLine[1] + ' ').ljust(35, '.'),               #Actionname
+                                    keystroke
+                            )
+
 
 		self.__addDataText(addToreadmeHeader,keymaps,lineStringMethod)
 
