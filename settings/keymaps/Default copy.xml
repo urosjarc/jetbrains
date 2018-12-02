@@ -8,9 +8,6 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
-  <action id="ChangesView.Shelve">
-    <keyboard-shortcut first-keystroke="alt v" />
-  </action>
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
@@ -137,6 +134,9 @@
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="Vcs.Log.FocusTextFilter" />
+  <action id="Vcs.Show.Local.Changes">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="context.load" />
   <action id="tasks.close" />
   <action id="tasks.goto" />
