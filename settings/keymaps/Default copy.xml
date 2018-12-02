@@ -8,6 +8,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="ChangesView.Shelve">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />

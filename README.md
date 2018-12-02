@@ -33,6 +33,7 @@ Command:
 	$Undo ............................. ctrl z
 	ActivateProjectToolWindow ......... alt f
 	ActivateTerminalToolWindow ........ alt enter
+	ChangesView.Shelve ................ alt v
 	CheckinProject .................... 
 	CloseContent ...................... alt c
 	CommentByBlockComment ............. shift alt slash
