@@ -39,6 +39,7 @@ Command:
 	CommentByLineComment .............. alt slash
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
+	EditSource ........................ semicolon
 	EditSourceInNewWindow ............. shift alt space
 	EditorCloneCaretAbove ............. alt k
 	EditorCloneCaretBelow ............. alt j
