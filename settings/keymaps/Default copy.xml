@@ -25,7 +25,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="EditSource">
-    <keyboard-shortcut first-keystroke="semicolon" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
@@ -107,7 +107,7 @@
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
   <action id="RunToCursor">
-    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="ctrl semicolon" />
   </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt n" />
