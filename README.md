@@ -39,7 +39,7 @@ Command:
 	CommentByLineComment .............. alt slash
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
-	EditSource ........................ semicolon
+	EditSource ........................ alt semicolon
 	EditSourceInNewWindow ............. shift alt space
 	EditorCloneCaretAbove ............. alt k
 	EditorCloneCaretBelow ............. alt j
@@ -69,7 +69,7 @@ Command:
 	Refactorings.QuickListPopupAction . alt r
 	RerunTests ........................ 
 	Run ............................... alt e
-	RunToCursor ....................... alt semicolon
+	RunToCursor ....................... ctrl semicolon
 	SelectNextOccurrence .............. alt n
 	ShowIntentionActions .............. alt w
 	StepInto .......................... ctrl l
