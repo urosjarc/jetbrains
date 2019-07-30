@@ -23,10 +23,13 @@ Command:
  - plantUML
  - Bash Support
  - Keypromoter
+ - Material Theme
  - Markdown Navigator
- - .gitignore
+ - .ignore
  - Code glance
  - Codota
+ - CSV Plugin
+ - Grazi
 
 ## Keymaps
 
