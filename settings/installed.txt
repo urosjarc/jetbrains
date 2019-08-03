@@ -2,7 +2,6 @@ IdeaVIM
 plantUML
 Bash Support
 Keypromoter
-Material Theme
 Matlab Support
 Markdown Navigator
 .ignore

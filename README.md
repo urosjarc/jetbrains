@@ -23,7 +23,7 @@ Command:
  - plantUML
  - Bash Support
  - Keypromoter
- - Material Theme
+ - Matlab Support
  - Markdown Navigator
  - .ignore
  - Code glance
