@@ -21,9 +21,10 @@ Command:
 
  - IdeaVIM
  - plantUML
+ - Matlab Support
+ - Makefile Support
  - Bash Support
  - Keypromoter
- - Matlab Support
  - Markdown Navigator
  - .ignore
  - Code glance
