@@ -41,6 +41,7 @@ Command:
 	CloseContent ...................... alt c
 	CommentByBlockComment ............. shift alt slash
 	CommentByLineComment .............. alt slash
+	Coverage .......................... alt t
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
 	EditSource ........................ alt semicolon
@@ -57,7 +58,6 @@ Command:
 	GotoAction ........................ alt a
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
-	GotoTest .......................... alt t
 	Gradle.ExecuteTask ................ alt b
 	HideAllWindows .................... alt escape
 	HippieBackwardCompletion .......... alt space

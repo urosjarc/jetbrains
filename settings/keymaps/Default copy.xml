@@ -18,6 +18,9 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
+  <action id="Coverage">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
@@ -63,9 +66,6 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
-  </action>
-  <action id="GotoTest">
-    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="Gradle.ExecuteTask">
     <keyboard-shortcut first-keystroke="alt b" />
