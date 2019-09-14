@@ -5,7 +5,7 @@
     <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
   </component>
   <component name="CodeInsightSettings">
-    <option name="PARAMETER_INFO_DELAY" value="0" />
+    <option name="PARAMETER_INFO_DELAY" value="0.3" />
     <option name="REFORMAT_ON_PASTE" value="4" />
   </component>
 </application>
