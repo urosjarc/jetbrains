@@ -99,6 +99,9 @@
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
@@ -123,9 +126,6 @@
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="ctrl j" />
-  </action>
-  <action id="Switcher">
-    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl b" />
