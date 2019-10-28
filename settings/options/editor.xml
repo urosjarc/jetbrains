@@ -1,5 +1,6 @@
 <application>
   <component name="DefaultFont">
+    <option name="FONT_SIZE" value="16" />
     <option name="FONT_FAMILY" value="DejaVu Sans Code" />
     <option name="USE_LIGATURES" value="true" />
   </component>

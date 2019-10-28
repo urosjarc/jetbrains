@@ -50,6 +50,7 @@ Command:
 	EditorCloneCaretBelow ............. alt j
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
+	EditorContextInfo ................. 
 	ExternalSystem.RefreshAllProjects . shift alt r
 	FileChooser.NewFolder ............. alt m
 	FindInPath ........................ alt p
@@ -70,6 +71,7 @@ Command:
 	NextTab ........................... alt l
 	PreviousTab ....................... alt h
 	QuickJavaDoc ...................... alt i
+	RecentFiles ....................... alt q
 	Refactorings.QuickListPopupAction . alt r
 	RerunTests ........................ 
 	Run ............................... alt e
