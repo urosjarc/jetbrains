@@ -21,16 +21,12 @@ Command:
 
  - IdeaVIM
  - plantUML
- - Matlab Support
  - Makefile Support
  - Bash Support
- - Keypromoter
- - Markdown Navigator
  - .ignore
  - Code glance
  - Codota
  - CSV Plugin
- - Grazi
 
 ## Keymaps
 
