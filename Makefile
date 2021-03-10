@@ -37,7 +37,7 @@ diff-jar:
 	rm tmp -rf
 
 readme:
-	cd scripts && python makeReadme.py
+	cd scripts && python3 makeReadme.py
 
 settings-jar:
 	cd settings/ && zip -r settings.jar * 

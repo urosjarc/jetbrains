@@ -1,6 +1,11 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
 class Readme(object):
 
-	template = """
+    template = \
+        """
 # jetbrains
 Settings for all JetBrains IDE-s
 
@@ -15,104 +20,111 @@ Command:
 ## Keymaps
 	"""
 
-	def __init__(self,path):
-		self.__data = None
-		self.__path = path
+    def __init__(self, path):
+        self.__data = None
+        self.__path = path
 
-		self.__setData()
-		pass
+        self.__setData()
+        pass
 
-	@property
-	def data(self):
-		return '\n'.join(self.__data)
-	@property
-	def path(self):
-		return self.__path
+    @property
+    def data(self):
+        return '\n'.join(self.__data)
 
-	def __setData(self):
-		self.__data = Readme.template.split('\n')
+    @property
+    def path(self):
+        return self.__path
 
-	def __addDataText(self,lineString,arrayText,lineStringMethod):
+    def __setData(self):
+        self.__data = Readme.template.split('\n')
 
-		newDataArray = []
+    def __addDataText(
+        self,
+        lineString,
+        arrayText,
+        lineStringMethod,
+        ):
 
-		for line in self.__data:
-			newDataArray.append(line)
-			if line == lineString:
-				newDataArray.append('')
-				for i in xrange(len(arrayText)):
-					newDataLine = lineStringMethod(arrayText,i)
-					if newDataLine:
-						newDataArray.append(newDataLine)
+        newDataArray = []
 
-				newDataArray.append('')
+        for line in self.__data:
+            newDataArray.append(line)
+            if line == lineString:
+                newDataArray.append('')
+                for i in range(len(arrayText)):
+                    newDataLine = lineStringMethod(arrayText, i)
+                    if newDataLine:
+                        newDataArray.append(newDataLine)
 
-		self.__data = newDataArray
+                newDataArray.append('')
 
-	def update(self):
-		with open(self.__path,'w') as f:
-			f.write(self.data)
+        self.__data = newDataArray
 
-	def addMakefile(self,addToreadmeHeader,path):
-		with open(path) as f:
-			makefile = f.readlines()
+    def update(self):
+        with open(self.__path, 'w') as f:
+            f.write(self.data)
 
-		def lineStringMethod(arrayText, i):
-			lineArray = arrayText[i].split()
-			if lineArray:
-				if lineArray[0] == '@echo':
+    def addMakefile(self, addToreadmeHeader, path):
+        with open(path) as f:
+            makefile = f.readlines()
 
-					return '\t{}'.format(
-						' '.join(lineArray[1:]).replace('"', '')
-					)
+        def lineStringMethod(arrayText, i):
+            lineArray = arrayText[i].split()
+            if lineArray:
+                if lineArray[0] == '@echo':
 
-		self.__addDataText(addToreadmeHeader,makefile, lineStringMethod)
+                    return '\t{}'.format(' '.join(lineArray[1:]).replace('"'
+                            , ''))
 
-	def addKeymaps(self,addToreadmeHeader,path):
-		with open(path) as f:
-			keymaps = f.readlines()
+        self.__addDataText(addToreadmeHeader, makefile,
+                           lineStringMethod)
 
-		def lineStringMethod(arrayText,i):
+    def addKeymaps(self, addToreadmeHeader, path):
+        with open(path) as f:
+            keymaps = f.readlines()
 
-			keyActionLine = arrayText[i].split('"')
+        def lineStringMethod(arrayText, i):
 
-                        if keyActionLine[0].strip() == '<action id=':
-                            if keyActionLine[2].strip() == '>':
-			        keystroke = arrayText[i+1].split('"')[1]      #Keystroke
-                            else:
-                                keystroke = ""
+            keyActionLine = arrayText[i].split('"')
 
-                            return '\t{} {}'.format(
-                                    (keyActionLine[1] + ' ').ljust(35, '.'),               #Actionname
-                                    keystroke
-                            )
+            if keyActionLine[0].strip() == '<action id=':
+                if keyActionLine[2].strip() == '>':
+                    keystroke = arrayText[i + 1].split('"')[1]  # Keystroke
+                else:
+                    keystroke = ''
 
+                return '\t{} {}'.format((keyActionLine[1] + ' '
+                        ).ljust(35, '.'), keystroke)  # Actionname
 
-		self.__addDataText(addToreadmeHeader,keymaps,lineStringMethod)
+        self.__addDataText(addToreadmeHeader, keymaps, lineStringMethod)
 
-	def addPlugins(self,addToreadmeHeader,path, skip):
-		with open(path) as f:
-			installed = f.readlines()
+    def addPlugins(
+        self,
+        addToreadmeHeader,
+        path,
+        skip,
+        ):
+        with open(path) as f:
+            installed = f.readlines()
 
-		def lineStringMethod(arrayText,i):
-			installedLine = arrayText[i].replace('\n','')
+        def lineStringMethod(arrayText, i):
+            installedLine = arrayText[i].replace('\n', '')
 
-			if not installedLine in skip:
-				return ' - {}'.format(
-					installedLine
-				)
+            if not installedLine in skip:
+                return ' - {}'.format(installedLine)
 
-
-		self.__addDataText(addToreadmeHeader,installed,lineStringMethod)
-
-if __name__ == "__main__":
-	readme = Readme(path='../README.md')
-	readme.addMakefile(addToreadmeHeader='## Makefile',path='../Makefile')
-	readme.addKeymaps(addToreadmeHeader='## Keymaps', path='../settings/keymaps/Default copy.xml')
-	readme.addPlugins(addToreadmeHeader='## Plugins', path='../settings/installed.txt',
-	                  skip=['intellij']
-	)
-	readme.update()
+        self.__addDataText(addToreadmeHeader, installed,
+                           lineStringMethod)
 
 
+if __name__ == '__main__':
+    readme = Readme(path='../README.md')
+    readme.addMakefile(addToreadmeHeader='## Makefile',
+                       path='../Makefile')
+    readme.addKeymaps(addToreadmeHeader='## Keymaps',
+                      path='../settings/keymaps/Default copy.xml')
+    readme.addPlugins(addToreadmeHeader='## Plugins',
+                      path='../settings/installed.txt', skip=['intellij'
+                      ])
+    readme.update()
 
