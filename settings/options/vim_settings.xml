@@ -73,7 +73,7 @@
       <shortcut-conflict owner="ide">
         <text>ctrl pressed 2</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>ctrl pressed R</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
@@ -103,7 +103,7 @@
       <shortcut-conflict owner="ide">
         <text>alt pressed H</text>
       </shortcut-conflict>
-      <shortcut-conflict owner="vim">
+      <shortcut-conflict owner="ide">
         <text>alt pressed A</text>
       </shortcut-conflict>
       <shortcut-conflict owner="ide">
