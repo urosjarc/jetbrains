@@ -1,0 +1,5 @@
+IdeaVIM
+com.4lex4.intellij.solarized
+mobi.hsz.idea.gitignore
+name.kropp.intellij.makefile
+net.seesharpsoft.intellij.plugins.csv

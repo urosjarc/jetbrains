@@ -1,71 +1,33 @@
 help:
-	@echo "settings-jar - Create settings .jar file from global settings folder."
-	@echo "diff-jar     - Diff .jar file with global settings folder."
-	@echo "diff-jars    - Diff 2 .jar files"
+	@echo "settings - Create settings .zip file from global settings folder."
+	@echo "diff     - Diff .zip file with global settings folder."
 	@echo "clean        - Clean not used elements."
 	@echo "install      - Create settings .jar file and update README.md"
 	@echo "readme       - Update README.md file"
 
 install:
-	$(MAKE) settings-jar
+	$(MAKE) settings
 	$(MAKE) readme
 
-color:
-	rm settings/colors -rf
-
+diff:
 	rm tmp -rf
 	mkdir tmp
-	git clone https://github.com/jkaving/intellij-colors-solarized tmp/repo
-	unzip -o tmp/repo/settings.jar -d tmp
-	mv tmp/colors settings
-
-	rm tmp -rf
-	
-
-diff-jar:
-	echo ">>> jar = $(jar) <<<"
-	
-	rm tmp -rf
-	
-	mkdir tmp
-	cp $(jar) tmp
-	cd tmp && unzip *.jar
-	rm tmp/*.jar
-
-	meld settings tmp
-	
+	cp ./settings.zip tmp
+	cd tmp && unzip *.zip
+	rm tmp/*.zip
+	meld src tmp
 	rm tmp -rf
 
 readme:
 	cd scripts && python3 makeReadme.py
 
-settings-jar:
-	cd settings/ && zip -r settings.jar * 
-	mv settings/settings.jar .
-
-diff-jars:
-	echo ">>> jar1 = $(jar1) <<<"
-	echo ">>> jar2 = $(jar2) <<<"
-	
-	rm tmp* -rf
-	
-	mkdir tmp1
-	cp $(jar1) tmp1
-	cd tmp1 && unzip *.jar
-	rm tmp1/*.jar
-	
-	mkdir tmp2
-	cp $(jar2) tmp2
-	cd tmp2 && unzip *.jar
-	rm tmp2/*.jar
-	
-	meld tmp1 tmp2
-	
-	rm tmp* -rf
+settings:
+	cd src/ && zip -r my-settings.zip *
+	mv src/my-settings.zip .
 
 clean:
 	rm tmp* -rf
-	rm *.jar
+	rm *.zip
 	
 
 

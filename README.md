@@ -10,9 +10,8 @@ Command:
 
 ## Makefile
 
-	settings-jar - Create settings .jar file from global settings folder.
-	diff-jar - Diff .jar file with global settings folder.
-	diff-jars - Diff 2 .jar files
+	settings - Create settings .zip file from global settings folder.
+	diff - Diff .zip file with global settings folder.
 	clean - Clean not used elements.
 	install - Create settings .jar file and update README.md
 	readme - Update README.md file
@@ -24,8 +23,6 @@ Command:
  - Makefile Support
  - Bash Support
  - .ignore
- - Code glance
- - Codota
  - CSV Plugin
 
 ## Keymaps

@@ -1,8 +1,0 @@
-IdeaVIM
-plantUML
-Makefile Support
-Bash Support
-.ignore
-Code glance
-Codota
-CSV Plugin
