@@ -1,9 +1,9 @@
 help:
 	@echo "settings - Create settings .zip file from global settings folder."
 	@echo "diff     - Diff .zip file with global settings folder."
-	@echo "clean        - Clean not used elements."
-	@echo "install      - Create settings .jar file and update README.md"
-	@echo "readme       - Update README.md file"
+	@echo "clean    - Clean not used elements."
+	@echo "install  - Create settings .jar file and update README.md"
+	@echo "readme   - Update README.md file"
 
 install:
 	$(MAKE) settings
