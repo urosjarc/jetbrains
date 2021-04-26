@@ -1,8 +1,5 @@
 <application>
   <component name="GeneralSettings">
-    <option name="autoSaveIfInactive" value="true" />
-    <option name="defaultProjectDirectory" value="$USER_HOME$/vcs" />
-    <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
   </component>
 </application>

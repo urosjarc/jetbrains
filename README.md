@@ -19,11 +19,10 @@ Command:
 ## Plugins
 
  - IdeaVIM
- - plantUML
- - Makefile Support
- - Bash Support
- - .ignore
- - CSV Plugin
+ - com.4lex4.intellij.solarized
+ - mobi.hsz.idea.gitignore
+ - name.kropp.intellij.makefile
+ - net.seesharpsoft.intellij.plugins.csv
 
 ## Keymaps
 

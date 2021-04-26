@@ -1,6 +1,6 @@
 <application>
-  <component name="CodeInsightSettings">
-    <option name="HIGHLIGHT_SCOPE" value="true" />
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />

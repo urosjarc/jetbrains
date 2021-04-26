@@ -27,9 +27,9 @@
   <action id="Debugger.PopFrame">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="alt semicolon" />
-  </action>
+  <action id="DomCollectionControl.Edit" />
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
+  <action id="EditSource" />
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
@@ -46,6 +46,7 @@
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="EditorContextInfo" />
+  <action id="ExternalSystem.OpenConfig" />
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -88,6 +89,7 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
+  <action id="NavBar-navigate" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
@@ -97,6 +99,7 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
+  <action id="ProjectViewEditSource" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
@@ -106,6 +109,7 @@
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
+  <action id="RemoteHostView.EditSource" />
   <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
@@ -140,10 +144,12 @@
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
+  <action id="Vcs.EditSource" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
+  <action id="XDebugger.JumpToSource" />
   <action id="context.load" />
   <action id="tasks.close" />
   <action id="tasks.goto" />
