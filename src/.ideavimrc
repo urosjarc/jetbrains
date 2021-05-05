@@ -1,0 +1,9 @@
+
+"CONSTANTS"
+    let mapleader=" "
+
+"SET VARIBLES"
+    set smartcase
+    set ignorecase
+    set sidescrolloff=20
+    set scrolloff=10

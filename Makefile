@@ -6,6 +6,7 @@ help:
 	@echo "readme   - Update README.md file"
 
 install:
+	cp ./src/.ideavimrc ~/.ideavimrc
 	$(MAKE) settings
 	$(MAKE) readme
 

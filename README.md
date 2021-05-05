@@ -26,46 +26,35 @@ Command:
 
 ## Keymaps
 
-	$Undo ............................. ctrl z
 	ActivateProjectToolWindow ......... alt f
 	ActivateTerminalToolWindow ........ alt enter
-	CheckinProject .................... 
 	CloseContent ...................... alt c
 	CommentByBlockComment ............. shift alt slash
 	CommentByLineComment .............. alt slash
-	Coverage .......................... alt t
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
-	EditSource ........................ alt semicolon
 	EditSourceInNewWindow ............. shift alt space
-	EditorCloneCaretAbove ............. alt k
-	EditorCloneCaretBelow ............. alt j
+	EditorCloneCaretAbove ............. alt i
+	EditorCloneCaretBelow ............. alt comma
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
-	EditorContextInfo ................. 
+	EditorDown ........................ alt j
+	EditorUp .......................... alt k
 	ExternalSystem.RefreshAllProjects . shift alt r
 	FileChooser.NewFolder ............. alt m
 	FindInPath ........................ alt p
-	FindNext .......................... 
 	Generate .......................... alt m
 	GotoAction ........................ alt a
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
-	Gradle.ExecuteTask ................ alt b
-	HideAllWindows .................... alt escape
 	HippieBackwardCompletion .......... alt space
-	HippieCompletion .................. 
-	InsertLiveTemplate ................ 
 	MoveEditorToOppositeTabGroup ...... alt u
 	MoveTabDown ....................... shift alt j
 	MoveTabRight ...................... shift alt l
 	NewElement ........................ alt m
 	NextTab ........................... alt l
 	PreviousTab ....................... alt h
-	QuickJavaDoc ...................... alt i
-	RecentFiles ....................... alt q
-	Refactorings.QuickListPopupAction . alt r
-	RerunTests ........................ 
+	RenameElement ..................... alt r
 	Run ............................... alt e
 	RunToCursor ....................... ctrl semicolon
 	SelectNextOccurrence .............. alt n
@@ -74,15 +63,7 @@ Command:
 	StepOut ........................... ctrl h
 	StepOver .......................... ctrl j
 	Switcher .......................... alt tab
-	ToggleLineBreakpoint .............. ctrl b
-	TypeHierarchy ..................... 
-	TypeHierarchy.BaseOnThisType ...... 
-	TypeHierarchyBase.BaseOnThisType .. 
+	ToggleLineBreakpoint .............. alt b
 	UnselectPreviousOccurrence ........ shift alt n
-	Vcs.Log.FocusTextFilter ........... 
-	Vcs.Show.Local.Changes ............ alt v
-	context.load ...................... 
-	tasks.close ....................... 
-	tasks.goto ........................ 
 
 	

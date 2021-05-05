@@ -1,14 +1,10 @@
 <keymap version="1" name="Default copy" parent="$default">
-  <action id="$Undo">
-    <keyboard-shortcut first-keystroke="ctrl z" />
-  </action>
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
-  <action id="CheckinProject" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -18,17 +14,11 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
-  <action id="Coverage">
-    <keyboard-shortcut first-keystroke="alt t" />
-  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
   <action id="Debugger.PopFrame">
     <keyboard-shortcut first-keystroke="ctrl k" />
-  </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
@@ -45,7 +35,6 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
-  <action id="EditorContextInfo" />
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -55,7 +44,6 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
-  <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
@@ -68,17 +56,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
-  <action id="Gradle.ExecuteTask">
-    <keyboard-shortcut first-keystroke="alt b" />
-  </action>
-  <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="alt escape" />
-  </action>
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
-  <action id="HippieCompletion" />
-  <action id="InsertLiveTemplate" />
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
@@ -97,16 +77,9 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt h" />
   </action>
-  <action id="QuickJavaDoc">
-    <keyboard-shortcut first-keystroke="alt i" />
-  </action>
-  <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="alt q" />
-  </action>
-  <action id="Refactorings.QuickListPopupAction">
+  <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="RerunTests" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
   </action>
@@ -132,19 +105,9 @@
     <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="ToggleLineBreakpoint">
-    <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="alt b" />
   </action>
-  <action id="TypeHierarchy" />
-  <action id="TypeHierarchy.BaseOnThisType" />
-  <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
-  <action id="Vcs.Log.FocusTextFilter" />
-  <action id="Vcs.Show.Local.Changes">
-    <keyboard-shortcut first-keystroke="alt v" />
-  </action>
-  <action id="context.load" />
-  <action id="tasks.close" />
-  <action id="tasks.goto" />
 </keymap>
