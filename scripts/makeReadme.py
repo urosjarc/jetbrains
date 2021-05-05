@@ -122,7 +122,7 @@ if __name__ == '__main__':
     readme.addMakefile(addToreadmeHeader='## Makefile',
                        path='../Makefile')
     readme.addKeymaps(addToreadmeHeader='## Keymaps',
-                      path='../src/keymaps/Default copy.xml')
+                      path='../src/keymaps/XWin copy.xml')
     readme.addPlugins(addToreadmeHeader='## Plugins',
                       path='../src/installed.txt', skip=['intellij'
                       ])

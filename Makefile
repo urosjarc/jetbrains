@@ -10,6 +10,7 @@ install:
 	$(MAKE) settings
 	$(MAKE) readme
 
+
 diff:
 	rm tmp -rf
 	mkdir tmp

@@ -26,6 +26,7 @@ Command:
 
 ## Keymaps
 
+	$Redo ............................. ctrl y
 	ActivateProjectToolWindow ......... alt f
 	ActivateTerminalToolWindow ........ alt enter
 	CloseContent ...................... alt c
@@ -34,12 +35,12 @@ Command:
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
 	EditSourceInNewWindow ............. shift alt space
-	EditorCloneCaretAbove ............. alt i
-	EditorCloneCaretBelow ............. alt comma
+	Editor Redo ....................... ctrl y
+	EditorCloneCaretAbove ............. alt k
+	EditorCloneCaretBelow ............. alt j
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
-	EditorDown ........................ alt j
-	EditorUp .......................... alt k
+	EditorDeleteLine .................. 
 	ExternalSystem.RefreshAllProjects . shift alt r
 	FileChooser.NewFolder ............. alt m
 	FindInPath ........................ alt p
