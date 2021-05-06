@@ -66,5 +66,3 @@ Command:
 	Switcher .......................... alt tab
 	ToggleLineBreakpoint .............. alt b
 	UnselectPreviousOccurrence ........ shift alt n
-
-	

@@ -127,4 +127,3 @@ if __name__ == '__main__':
                       path='../src/installed.txt', skip=['intellij'
                       ])
     readme.update()
-

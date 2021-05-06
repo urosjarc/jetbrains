@@ -1,15 +1,41 @@
 <application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_METHODS" value="true" />
+    <option name="COLLAPSE_DOC_COMMENTS" value="true" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="selectAutopopupSuggestionsByChars" value="true" />
+    <option name="PARAMETER_INFO_DELAY" value="0" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="JAVADOC_INFO_DELAY" value="0" />
+    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+  </component>
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="16" />
     <option name="FONT_FAMILY" value="DejaVu Sans Code" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Book" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
+    <option name="LINE_SPACING" value="1.1" />
     <option name="USE_LIGATURES" value="true" />
   </component>
   <component name="EditorSettings">
+    <option name="STRIP_TRAILING_SPACES" value="Whole" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
+    <option name="TOOLTIPS_DELAY_MS" value="1" />
     <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
     <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="ENABLE_RENDERED_DOC" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="PythonFoldingSettings">
+    <option name="COLLAPSE_LONG_STRINGS" value="true" />
+    <option name="COLLAPSE_LONG_COLLECTIONS" value="true" />
+    <option name="COLLAPSE_SEQUENTIAL_COMMENTS" value="true" />
   </component>
 </application>

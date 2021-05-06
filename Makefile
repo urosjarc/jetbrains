@@ -30,6 +30,3 @@ settings:
 clean:
 	rm tmp* -rf
 	rm *.zip
-	
-
-
