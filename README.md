@@ -49,6 +49,7 @@ Command:
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
 	HippieBackwardCompletion .......... alt space
+	HippieCompletion .................. 
 	MoveEditorToOppositeTabGroup ...... alt u
 	MoveTabDown ....................... shift alt j
 	MoveTabRight ...................... shift alt l
