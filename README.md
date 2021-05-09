@@ -18,6 +18,7 @@ Command:
 
 ## Plugins
 
+ - GLSL
  - IdeaVIM
  - com.4lex4.intellij.solarized
  - mobi.hsz.idea.gitignore
