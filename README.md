@@ -18,9 +18,13 @@ Command:
 
 ## Plugins
 
+ - CMD Support
  - GLSL
  - IdeaVIM
+ - String Manipulation
  - com.4lex4.intellij.solarized
+ - com.andrey4623.rainbowcsv
+ - com.chesterccw.excelreader
  - mobi.hsz.idea.gitignore
  - name.kropp.intellij.makefile
  - net.seesharpsoft.intellij.plugins.csv
@@ -35,6 +39,7 @@ Command:
 	CommentByLineComment .............. alt slash
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
+	EditSource ........................ alt semicolon
 	EditSourceInNewWindow ............. shift alt space
 	Editor Redo ....................... ctrl y
 	EditorCloneCaretAbove ............. alt k
@@ -51,10 +56,12 @@ Command:
 	GotoFile .......................... alt s
 	HippieBackwardCompletion .......... alt space
 	HippieCompletion .................. 
+	InsertLiveTemplate ................ 
 	MoveEditorToOppositeTabGroup ...... alt u
 	MoveTabDown ....................... shift alt j
 	MoveTabRight ...................... shift alt l
 	NewElement ........................ alt m
+	NextSplitter ...................... alt tab
 	NextTab ........................... alt l
 	PreviousTab ....................... alt h
 	RenameElement ..................... alt r
@@ -65,7 +72,6 @@ Command:
 	StepInto .......................... ctrl l
 	StepOut ........................... ctrl h
 	StepOver .......................... ctrl j
-	Switcher .......................... alt tab
 	ToggleLineBreakpoint .............. alt b
 	UnselectPreviousOccurrence ........ shift alt n
 

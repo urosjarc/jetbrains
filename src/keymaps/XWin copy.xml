@@ -23,6 +23,9 @@
   <action id="Debugger.PopFrame">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
@@ -67,6 +70,7 @@
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="HippieCompletion" /> <!-- This was on Alt-/ (comment line) -->
+  <action id="InsertLiveTemplate" /> <!-- This was on Ctrl-J (step over) -->
   <action id="MoveEditorToOppositeTabGroup">
     <keyboard-shortcut first-keystroke="alt u" />
   </action>
@@ -78,6 +82,9 @@
   </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt l" />
@@ -108,9 +115,6 @@
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="ctrl j" />
-  </action>
-  <action id="Switcher">
-    <keyboard-shortcut first-keystroke="alt tab" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="alt b" />
