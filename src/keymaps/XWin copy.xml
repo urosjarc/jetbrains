@@ -8,6 +8,9 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -45,6 +48,7 @@
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
   <action id="EditorDeleteLine" /> <!-- This was on Ctrl-y (redo) -->
+  <action id="ExportToTextFile" /> <!-- This was on Ctrl-i (back) -->
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -53,6 +57,9 @@
   </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt m" />

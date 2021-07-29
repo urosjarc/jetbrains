@@ -34,6 +34,7 @@ Command:
 	$Redo ............................. ctrl y
 	ActivateProjectToolWindow ......... alt f
 	ActivateTerminalToolWindow ........ alt enter
+	Back .............................. alt i
 	CloseContent ...................... alt c
 	CommentByBlockComment ............. shift alt slash
 	CommentByLineComment .............. alt slash
@@ -47,9 +48,11 @@ Command:
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
 	EditorDeleteLine .................. 
+	ExportToTextFile .................. 
 	ExternalSystem.RefreshAllProjects . shift alt r
 	FileChooser.NewFolder ............. alt m
 	FindInPath ........................ alt p
+	Forward ........................... alt o
 	Generate .......................... alt m
 	GotoAction ........................ alt a
 	GotoDeclaration ................... alt g
