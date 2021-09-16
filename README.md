@@ -68,6 +68,7 @@ Command:
 	NextTab ........................... alt l
 	PreviousTab ....................... alt h
 	RenameElement ..................... alt r
+	RevealIn .......................... alt period
 	Run ............................... alt e
 	RunToCursor ....................... ctrl semicolon
 	SelectNextOccurrence .............. alt n
