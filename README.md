@@ -21,6 +21,7 @@ Command:
  - CMD Support
  - GLSL
  - IdeaVIM
+ - PlantUML integration
  - String Manipulation
  - com.4lex4.intellij.solarized
  - com.andrey4623.rainbowcsv
@@ -28,6 +29,8 @@ Command:
  - mobi.hsz.idea.gitignore
  - name.kropp.intellij.makefile
  - net.seesharpsoft.intellij.plugins.csv
+ - nl.rubensten.texifyidea
+ - pro.bashsupport
 
 ## Keymaps
 
