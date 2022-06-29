@@ -2,9 +2,10 @@ CMD Support
 IdeaVIM
 PlantUML integration
 String Manipulation
-com.4lex4.intellij.solarized
 com.andrey4623.rainbowcsv
 com.chesterccw.excelreader
+com.eclectide.intellij.whatthecommit
+com.intellij.plugin.adernov.powershell
 mobi.hsz.idea.gitignore
-name.kropp.intellij.makefile
 net.seesharpsoft.intellij.plugins.csv
+ru.meanmail.plugin.requirements
