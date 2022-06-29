@@ -1,5 +1,4 @@
 CMD Support
-GLSL
 IdeaVIM
 PlantUML integration
 String Manipulation
@@ -10,4 +9,3 @@ mobi.hsz.idea.gitignore
 name.kropp.intellij.makefile
 net.seesharpsoft.intellij.plugins.csv
 nl.rubensten.texifyidea
-pro.bashsupport
