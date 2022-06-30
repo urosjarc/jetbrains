@@ -47,6 +47,7 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
+ <action id="EditorContextInfo" /> <!-- This was on Alt-q (reformat code) -->
   <action id="EditorDeleteLine" /> <!-- This was on Ctrl-y (redo) -->
   <action id="ExportToTextFile" /> <!-- This was on Ctrl-i (back) -->
   <action id="ExternalSystem.RefreshAllProjects">
@@ -98,6 +99,9 @@
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
