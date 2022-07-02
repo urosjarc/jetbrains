@@ -11,6 +11,9 @@
   <action id="Back">
     <keyboard-shortcut first-keystroke="alt i" />
   </action>
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -105,7 +108,7 @@
   </action>
   <action id="Replace" /> <!-- This was on Ctrl-R (reload) -->
   <action id="RevealIn">
-    <keyboard-shortcut first-keystroke="alt period" />
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />
