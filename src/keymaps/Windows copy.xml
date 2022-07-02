@@ -26,9 +26,6 @@
   <action id="Debugger.PopFrame">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
-  <action id="EditSource">
-    <keyboard-shortcut first-keystroke="alt semicolon" />
-  </action>
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="shift alt space" />
   </action>
@@ -75,7 +72,7 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="HippieBackwardCompletion">
-    <keyboard-shortcut first-keystroke="alt space" />
+    <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="HippieCompletion" /> <!-- This was on Alt-/ (comment line) -->
   <action id="InsertLiveTemplate" /> <!-- This was on Ctrl-J (step over) -->
