@@ -1,6 +1,8 @@
 <application>
   <component name="GeneralSettings">
     <option name="autoSaveIfInactive" value="true" />
+    <option name="confirmExit" value="false" />
+    <option name="confirmOpenNewProject2" value="1" />
     <option name="defaultProjectDirectory" value="C:\Users\urosjarc\Desktop\VCS" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
