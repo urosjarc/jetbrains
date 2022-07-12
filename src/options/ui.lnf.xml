@@ -2,6 +2,7 @@
   <component name="UISettings">
     <option name="ACTIVATE_MRU_EDITOR_ON_CLOSE" value="true" />
     <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
+    <option name="DISABLE_MNEMONICS" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="5" />
     <option name="HIDE_TOOL_STRIPES" value="true" />
     <option name="SCROLL_TAB_LAYOUT_IN_EDITOR" value="false" />
