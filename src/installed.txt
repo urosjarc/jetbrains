@@ -1,11 +1,3 @@
-CMD Support
+
 IdeaVIM
-PlantUML integration
-String Manipulation
-com.andrey4623.rainbowcsv
-com.chesterccw.excelreader
-com.eclectide.intellij.whatthecommit
-com.intellij.plugin.adernov.powershell
-mobi.hsz.idea.gitignore
-net.seesharpsoft.intellij.plugins.csv
-ru.meanmail.plugin.requirements
+com.4lex4.intellij.solarized
