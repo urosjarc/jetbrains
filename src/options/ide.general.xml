@@ -6,7 +6,7 @@
     <option name="defaultProjectDirectory" value="C:\Users\urosjarc\Desktop\VCS" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
-    <option name="autoSyncFiles" value="false" />
+    <option name="autoSyncFiles" value="true" />
     <option name="useSafeWrite" value="false" />
   </component>
 </application>
