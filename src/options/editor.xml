@@ -13,14 +13,6 @@
   <component name="DaemonCodeAnalyzerSettings">
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="16" />
-    <option name="FONT_FAMILY" value="DejaVu Sans Code" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="Book" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
-    <option name="LINE_SPACING" value="1.1" />
-    <option name="USE_LIGATURES" value="true" />
-  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
