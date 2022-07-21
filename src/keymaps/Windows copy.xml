@@ -104,7 +104,6 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="Replace" /> <!-- This was on Ctrl-R (reload) -->
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="alt g" />
   </action>
@@ -129,9 +128,6 @@
   </action>
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="ctrl j" />
-  </action>
-  <action id="Synchronize">
-    <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="alt b" />
