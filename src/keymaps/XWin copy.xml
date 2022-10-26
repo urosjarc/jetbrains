@@ -1,4 +1,4 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="XWin copy" parent="$default">
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" /> <!-- Default redo is ctrl-shift-z -->
   </action>

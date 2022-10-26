@@ -18,19 +18,9 @@ Command:
 
 ## Plugins
 
- - CMD Support
- - GLSL
+ - 
  - IdeaVIM
- - PlantUML integration
- - String Manipulation
  - com.4lex4.intellij.solarized
- - com.andrey4623.rainbowcsv
- - com.chesterccw.excelreader
- - mobi.hsz.idea.gitignore
- - name.kropp.intellij.makefile
- - net.seesharpsoft.intellij.plugins.csv
- - nl.rubensten.texifyidea
- - pro.bashsupport
 
 ## Keymaps
 
@@ -38,18 +28,19 @@ Command:
 	ActivateProjectToolWindow ......... alt f
 	ActivateTerminalToolWindow ........ alt enter
 	Back .............................. alt i
+	CheckinProject .................... ctrl s
 	CloseContent ...................... alt c
 	CommentByBlockComment ............. shift alt slash
 	CommentByLineComment .............. alt slash
 	Debug ............................. alt d
 	Debugger.PopFrame ................. ctrl k
-	EditSource ........................ alt semicolon
 	EditSourceInNewWindow ............. shift alt space
 	Editor Redo ....................... ctrl y
 	EditorCloneCaretAbove ............. alt k
 	EditorCloneCaretBelow ............. alt j
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
+	EditorContextInfo ................. 
 	EditorDeleteLine .................. 
 	ExportToTextFile .................. 
 	ExternalSystem.RefreshAllProjects . shift alt r
@@ -60,20 +51,21 @@ Command:
 	GotoAction ........................ alt a
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
-	HippieBackwardCompletion .......... alt space
+	HippieBackwardCompletion .......... alt semicolon
 	HippieCompletion .................. 
 	InsertLiveTemplate ................ 
-	MoveEditorToOppositeTabGroup ...... alt u
 	MoveTabDown ....................... shift alt j
 	MoveTabRight ...................... shift alt l
 	NewElement ........................ alt m
-	NextSplitter ...................... alt tab
+	NextSplitter ...................... alt u
 	NextTab ........................... alt l
 	PreviousTab ....................... alt h
+	ReformatCode ...................... alt q
 	RenameElement ..................... alt r
-	RevealIn .......................... alt period
+	RevealIn .......................... alt g
 	Run ............................... alt e
 	RunToCursor ....................... ctrl semicolon
+	SaveAll ........................... 
 	SelectNextOccurrence .............. alt n
 	ShowIntentionActions .............. alt w
 	StepInto .......................... ctrl l
@@ -81,5 +73,6 @@ Command:
 	StepOver .......................... ctrl j
 	ToggleLineBreakpoint .............. alt b
 	UnselectPreviousOccurrence ........ shift alt n
+	UsageFiltering.ReadAccess ......... 
 
 	
