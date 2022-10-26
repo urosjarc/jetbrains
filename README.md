@@ -51,7 +51,7 @@ Command:
 	GotoAction ........................ alt a
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
-	HippieBackwardCompletion .......... alt semicolon
+	HippieBackwardCompletion .......... alt space
 	HippieCompletion .................. 
 	InsertLiveTemplate ................ 
 	MoveTabDown ....................... shift alt j
