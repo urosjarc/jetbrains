@@ -75,7 +75,7 @@
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="HippieBackwardCompletion">
-    <keyboard-shortcut first-keystroke="alt semicolon" />
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="HippieCompletion" /> <!-- This was on Alt-/ (comment line) -->
   <action id="InsertLiveTemplate" /> <!-- This was on Ctrl-J (step over) -->
