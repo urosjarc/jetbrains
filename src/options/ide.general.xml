@@ -3,7 +3,7 @@
     <option name="autoSaveIfInactive" value="true" />
     <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="1" />
-    <option name="defaultProjectDirectory" value="C:\Users\urosjarc\Desktop\VCS" />
+    <option name="defaultProjectDirectory" value="/home/urosjarc/vcs" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="showTipsOnStartup" value="false" />
     <option name="autoSyncFiles" value="true" />
