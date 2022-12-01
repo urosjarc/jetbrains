@@ -36,12 +36,10 @@ Command:
 	Debugger.PopFrame ................. ctrl k
 	EditSourceInNewWindow ............. shift alt space
 	Editor Redo ....................... ctrl y
-	EditorCloneCaretAbove ............. ctrl alt k
-	EditorCloneCaretBelow ............. ctrl alt j
+	EditorCloneCaretAbove ............. alt k
+	EditorCloneCaretBelow ............. alt j
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
-	EditorDown ........................ down
-	EditorUp .......................... up
 	ExternalSystem.RefreshAllProjects . shift alt r
 	FileChooser.NewFolder ............. alt m
 	FindInPath ........................ alt p

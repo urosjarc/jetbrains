@@ -36,10 +36,10 @@
     <keyboard-shortcut first-keystroke="ctrl y" /> <!-- Default redo is ctrl-shift-z -->
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="ctrl alt k" />
+    <keyboard-shortcut first-keystroke="alt k" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="alt j" />
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
@@ -47,18 +47,9 @@
   <action id="EditorCodeBlockStart">
     <keyboard-shortcut first-keystroke="alt open_bracket" />
   </action>
- <action id="EditorContextInfo" /> <!-- This was on Alt-q (reformat code) -->
+  <action id="EditorContextInfo" /> <!-- This was on Alt-q (reformat code) -->
   <action id="EditorDeleteLine" /> <!-- This was on Ctrl-y (redo) -->
   <action id="ExportToTextFile" /> <!-- This was on Ctrl-i (back) -->
-  <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="down" />
-    <keyboard-shortcut first-keystroke="alt j" />
-  </action>
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="up" />
-    <keyboard-shortcut first-keystroke="alt k" />
-  </action>
-  <action id="ExportToTextFile" /> <!-- This was on other shortcut -->
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -90,7 +81,6 @@
   </action>
   <action id="HippieCompletion" /> <!-- This was on Alt-/ (comment line) -->
   <action id="InsertLiveTemplate" /> <!-- This was on Ctrl-J (step over) -->
-
   <action id="MoveTabDown">
     <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
@@ -148,4 +138,5 @@
     <keyboard-shortcut first-keystroke="shift alt n" />
   </action>
   <action id="UsageFiltering.ReadAccess" />  <!-- This was on Ctrl-R (reload) -->
+  <action id="context.load" />
 </keymap>
