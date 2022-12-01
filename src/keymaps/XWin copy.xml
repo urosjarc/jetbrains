@@ -36,10 +36,10 @@
     <keyboard-shortcut first-keystroke="ctrl y" /> <!-- Default redo is ctrl-shift-z -->
   </action>
   <action id="EditorCloneCaretAbove">
-    <keyboard-shortcut first-keystroke="alt k" />
+    <keyboard-shortcut first-keystroke="ctrl alt k" />
   </action>
   <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="alt j" />
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="alt close_bracket" />
@@ -50,6 +50,15 @@
  <action id="EditorContextInfo" /> <!-- This was on Alt-q (reformat code) -->
   <action id="EditorDeleteLine" /> <!-- This was on Ctrl-y (redo) -->
   <action id="ExportToTextFile" /> <!-- This was on Ctrl-i (back) -->
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="ExportToTextFile" /> <!-- This was on other shortcut -->
   <action id="ExternalSystem.RefreshAllProjects">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -65,6 +74,7 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
+  <action id="Git.Commit.And.Push.Executor" /> <!-- This was on other shortcut -->
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
@@ -74,6 +84,7 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
+  <action id="Hg.Commit.And.Push.Executor" /> <!-- This was on other shortcut -->
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>
@@ -129,6 +140,7 @@
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
+  <action id="SurroundWithLiveTemplate" /> <!-- This was on other shortcut -->
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>

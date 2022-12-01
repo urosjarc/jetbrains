@@ -36,13 +36,12 @@ Command:
 	Debugger.PopFrame ................. ctrl k
 	EditSourceInNewWindow ............. shift alt space
 	Editor Redo ....................... ctrl y
-	EditorCloneCaretAbove ............. alt k
-	EditorCloneCaretBelow ............. alt j
+	EditorCloneCaretAbove ............. ctrl alt k
+	EditorCloneCaretBelow ............. ctrl alt j
 	EditorCodeBlockEnd ................ alt close_bracket
 	EditorCodeBlockStart .............. alt open_bracket
-	EditorContextInfo ................. 
-	EditorDeleteLine .................. 
-	ExportToTextFile .................. 
+	EditorDown ........................ down
+	EditorUp .......................... up
 	ExternalSystem.RefreshAllProjects . shift alt r
 	FileChooser.NewFolder ............. alt m
 	FindInPath ........................ alt p
@@ -52,8 +51,6 @@ Command:
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
 	HippieBackwardCompletion .......... alt space
-	HippieCompletion .................. 
-	InsertLiveTemplate ................ 
 	MoveTabDown ....................... shift alt j
 	MoveTabRight ...................... shift alt l
 	NewElement ........................ alt m
@@ -65,7 +62,6 @@ Command:
 	RevealIn .......................... alt g
 	Run ............................... alt e
 	RunToCursor ....................... ctrl semicolon
-	SaveAll ........................... 
 	SelectNextOccurrence .............. alt n
 	ShowIntentionActions .............. alt w
 	StepInto .......................... ctrl l
@@ -73,6 +69,5 @@ Command:
 	StepOver .......................... ctrl j
 	ToggleLineBreakpoint .............. alt b
 	UnselectPreviousOccurrence ........ shift alt n
-	UsageFiltering.ReadAccess ......... 
 
 	

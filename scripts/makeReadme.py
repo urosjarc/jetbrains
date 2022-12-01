@@ -93,8 +93,13 @@ Command:
                 else:
                     keystroke = ''
 
-                return '\t{} {}'.format((keyActionLine[1] + ' '
+
+                data = '\t{} {}'.format((keyActionLine[1] + ' '
                         ).ljust(35, '.'), keystroke)  # Actionname
+
+                if len(keystroke) == 0:
+                    return False
+                return data
 
         self.__addDataText(addToreadmeHeader, keymaps, lineStringMethod)
 
