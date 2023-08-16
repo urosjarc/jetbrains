@@ -75,7 +75,10 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="alt s" />
   </action>
-  <action id="Hg.Commit.And.Push.Executor" /> <!-- This was on other shortcut -->
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
+  <action id="Hg.Commit.And.Push.Executor" />
   <action id="HippieBackwardCompletion">
     <keyboard-shortcut first-keystroke="alt space" />
   </action>

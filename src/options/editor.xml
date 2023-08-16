@@ -18,6 +18,7 @@
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="REMOVE_TRAILING_BLANK_LINES" value="true" />
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="false" />
     <option name="TOOLTIPS_DELAY_MS" value="200" />
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="ENABLE_RENDERED_DOC" value="true" />

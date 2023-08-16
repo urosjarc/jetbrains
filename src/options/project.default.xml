@@ -1,11 +1,16 @@
 <application>
   <component name="ProjectManager">
     <defaultProject>
-      <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/urosjarc/Desktop/VCS"
+      <component name="ProjectViewState">
+        <option name="autoscrollFromSource" value="true" />
+        <option name="hideEmptyMiddlePackages" value="true" />
+        <option name="showLibraryContents" value="true" />
+      </component>
+      <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/urosjarc/Desktop/VCS&quot;
   }
-}]]></component>
+}</component>
     </defaultProject>
   </component>
 </application>

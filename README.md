@@ -18,9 +18,11 @@ Command:
 
 ## Plugins
 
- - 
- - IdeaVIM
  - com.4lex4.intellij.solarized
+ - IdeaVIM
+ - net.ashald.envfile
+ - org.jetbrains.kotlin
+ - PlantUML integration
 
 ## Keymaps
 
@@ -48,6 +50,7 @@ Command:
 	GotoAction ........................ alt a
 	GotoDeclaration ................... alt g
 	GotoFile .......................... alt s
+	GotoNextError ..................... alt tab
 	HippieBackwardCompletion .......... alt space
 	MoveTabDown ....................... shift alt j
 	MoveTabRight ...................... shift alt l
