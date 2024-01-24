@@ -11,6 +11,7 @@
     <option name="HIGHLIGHT_SCOPE" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
+    <option name="AUTOREPARSE_DELAY" value="0" />
     <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="EditorSettings">
