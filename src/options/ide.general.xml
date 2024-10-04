@@ -4,9 +4,15 @@
     <option name="autoSaveIfInactive" value="true" />
     <option name="confirmExit" value="false" />
     <option name="confirmOpenNewProject2" value="0" />
-    <option name="defaultProjectDirectory" value="/home/urosjarc/vcs" />
     <option name="processCloseConfirmation" value="TERMINATE" />
     <option name="autoSyncFiles" value="true" />
     <option name="useSafeWrite" value="false" />
+  </component>
+  <component name="Registry">
+    <entry key="moved.to.new.ui" value="true" />
+    <entry key="ide.experimental.ui" value="true" />
+    <entry key="i18n.locale" value="" />
+    <entry key="terminal.new.ui" value="true" />
+    <entry key="ide.browser.jcef.sandbox.enable" value="false" />
   </component>
 </application>
