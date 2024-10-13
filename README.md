@@ -18,7 +18,6 @@ Command:
 
 ## Plugins
 
- - com.4lex4.intellij.solarized
  - IdeaVIM
  - net.ashald.envfile
  - org.jetbrains.kotlin
