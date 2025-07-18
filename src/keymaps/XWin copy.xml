@@ -139,8 +139,7 @@
     <keyboard-shortcut first-keystroke="alt altGraph r" />
   </action>
   <action id="RevealIn">
-    <keyboard-shortcut first-keystroke="alt g" />
-    <keyboard-shortcut first-keystroke="alt altGraph g" />
+    <keyboard-shortcut first-keystroke="alt 1" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="alt e" />

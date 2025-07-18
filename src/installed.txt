@@ -1,4 +1,6 @@
+com.mnr.java.intellij.idea.plugin.base64helper
 IdeaVIM
+name.kropp.intellij.makefile
 net.ashald.envfile
 org.jetbrains.kotlin
 PlantUML integration

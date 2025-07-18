@@ -18,7 +18,9 @@ Command:
 
 ## Plugins
 
+ - com.mnr.java.intellij.idea.plugin.base64helper
  - IdeaVIM
+ - name.kropp.intellij.makefile
  - net.ashald.envfile
  - org.jetbrains.kotlin
  - PlantUML integration
@@ -59,7 +61,7 @@ Command:
 	PreviousTab ....................... alt h
 	ReformatCode ...................... alt q
 	RenameElement ..................... alt r
-	RevealIn .......................... alt g
+	RevealIn .......................... alt 1
 	Run ............................... alt e
 	RunToCursor ....................... ctrl semicolon
 	SelectNextOccurrence .............. alt n
